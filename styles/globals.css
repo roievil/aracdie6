@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
    font-family: sans-serif;
    color: #354358;
-}
-
-/* //TODO put this in document */
-/* body {
-   background-color: black;
 } */
+
+/* default text color */
+body {
+  color: #354358;
+  background-image: url("../public/images/arcadieBackGround.png") !important;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
