@@ -110,84 +110,84 @@ export const projects: IProject[] = [
     key_techs: ["React", "Chart.js", "Material UI"],
                 pictures: [
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon10parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon10ParArcadie.jpg",
                     pictureLegend: "<span>Conçu pour la <a class=\"underline hover:no-underline\" href=\"https://www.bijouteriegriffon.com\" target=\"_blank\" rel=\"noopener noreferrer\">bijouterie / joaillerie Griffon</a> à Nantes.</span>",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon20parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon20ParArcadie.jpg",
                     pictureLegend: "5 plateaux empilables réalisés en valchromat noir",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon30parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon30ParArcadie.jpg",
                     pictureLegend: "Chaque Plateau est destiné à recevoir des boites à gemmes en plexiglass de deux tailles différentes, qui viennent s’insérer dans les logements mousse EVA. ",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon40parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon40ParArcadie.jpg",
                     pictureLegend: "Les plateaux sont surmontés d’un étage de présentation comportant une gravure du logo de la joaillerie réalisée au laser dans du plexiglass givré.",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon50parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon50ParArcadie.jpg",
                     pictureLegend: "",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon60parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon60ParArcadie.jpg",
                     pictureLegend: "Le principe de la boite à gemmes qui vient se loger dans les alvéoles du plateau a été repris pour cette fausse boîte à gemme qui reprend le logo de la joaillerie.",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon70parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon70ParArcadie.jpg",
                     pictureLegend: "Détail du cabochon, la gravure est rehaussée d’une incrustation de fil d’argent massif, technique signature de l’atelier arcadie.",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon80parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon80ParArcadie.jpg",
                     pictureLegend: "Les pieds en aluminium anodisé sont equipés de petits patins de liège pour une manipulation silencieuse.",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon90parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon90ParArcadie.jpg",
                     pictureLegend: "Dans une deuxième version de l’étage de présentation la gravure du logo a été rehaussée de noir.",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon100parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon100ParArcadie.jpg",
                     pictureLegend: "",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon110parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon110ParArcadie.jpg",
                     pictureLegend: "",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
                     height: 2560
                 },
                 {
-                    picturePath: "/images/projets/coffrets/coffretGriffon120parArcadie.jpg",
+                    picturePath: "/images/projets/coffrets/coffretGriffon120ParArcadie.jpg",
                     pictureLegend: "",
                     alt: "présentoirs noirs inscrustations d'argent",
                     width: 2560,
