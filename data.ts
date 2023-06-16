@@ -1,102 +1,39 @@
-import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
-import { IProject, Service, Skill } from "./types";
-
-import { BsCircleFill } from "react-icons/bs";
+import { IProject, Service } from "./types";
 
 export const services: Service[] = [
   {
-    Icon: RiComputerLine,
-    title: "Frontend Development",
+    icon: "/images/icons/sawBlade.svg",
+    title: "Travail du Bois",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "L'atelier est équipé de machines à bois traditionnelles dimensionnées pour du <b>mobilier</b> et <b>petits objets</b>"
   },
   {
-    Icon: FaServer,
-    title: "Backend  Development",
+    icon: "/images/icons/leather.svg",
+    title: "Travail du Cuir",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
   },
   {
-    Icon: AiOutlineApi,
-    title: "API Development",
+    icon: "/images/icons/laser.svg",
+    title: "Découpe numérique",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "L'atelier est équipé d'une <b>découpeuse laser</b> et d'une <b>fraiseuse numérique</b> avec lesquelles je réalise les pièces elles mêmes ou bien des gabarits pour régler les machines traditionnelles.",
   },
-  {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    {
+    icon: "/images/icons/ornament.svg",
+    title: "Ebénisterie",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Je suis <b>ébéniste</b> et j'ai adapté les techniques d'<b>ornementation</b> traditionelles de ce métier aux machines <b>numériques</b> : marqueterie, incrustations, gravures...",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    icon: "/images/icons/robot.svg",
+    title: "Programmation",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
-  },
-];
-
-export const languages: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
-  },
-];
-
-export const tools: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+      "Je suis programmeur et <b>automaticien</b>, spécialiste de <b>Grasshopper</b>, à l'aide de quoi je peux programmer des objets paramétriques, des parcours d'outils ou des workflow sur mesure à vos besoins",
+  },  {
+    icon: "/images/icons/modeling.svg",
+    title: "Modélisation",
+    about: "J'utilise notamment <b>Rhinoceros 3D</b> dans ma pratique et je suis aussi <b>formateur</b> sur ce logiciel, en distanciel aussi bien que sur place, dans votre établissement.",
   },
 ];
 
@@ -104,10 +41,10 @@ export const projects: IProject[] = [
   { 
     name: "Coffret à Gemmes Griffon",
     description:
-      "This app shows a statistical view about corona virus over the world",
+      "<span>Conçu pour la <a class=\"underline hover:no-underline\" href=\"https://www.bijouteriegriffon.com\" target=\"_blank\" rel=\"noopener noreferrer\">bijouterie / joaillerie Griffon</a> à Nantes.</span>",
     image_path: "/images/projets/coffrets/coffretGriffon10ParArcadie.jpg",
-    category: ["Travail du Bois"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    category: "Travail du Bois",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
                 pictures: [
                 {
                     picturePath: "/images/projets/coffrets/coffretGriffon10ParArcadie.jpg",

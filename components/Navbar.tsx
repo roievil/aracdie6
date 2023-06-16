@@ -1,18 +1,21 @@
-import { useState, useEffect, FunctionComponent } from "react";
+import { useState, useEffect, FunctionComponent, useContext } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { GlobalContext } from "../context/GlobalContext";
+import { IContextState } from "../types";
 
 const NavItem: FunctionComponent<{
-  active: string;
-  setActive: Function;
   name: string;
   route: string;
-}> = ({ active, setActive, name, route }) => {
-  return active !== name ? (
+}> = ({ name, route }) => {
+  const { activeNavBarTab, setActiveNavBarTab } = useContext(
+    GlobalContext
+  ) as IContextState;
+  return activeNavBarTab !== name ? (
     <Link href={route}>
       <span
-        className="mx-2 cursor-pointer hover:border-b-4 hover:text-green"
-        onClick={() => setActive(name)}
+        className="mx-2 cursor-pointer border-b-4 text-gray-700 border-transparent hover:border-gray-200 hover:text-gray-400"
+        onClick={() => setActiveNavBarTab(name)}
       >
         {name}
       </span>
@@ -22,34 +25,29 @@ const NavItem: FunctionComponent<{
 
 const Navbar = () => {
   const { pathname } = useRouter();
-
-  const [active, setActive] = useState("");
+  const { activeNavBarTab, setActiveNavBarTab } = useContext(
+    GlobalContext
+  ) as IContextState;
 
   //later
   useEffect(() => {
-    if (pathname === "/") setActive("A Propos");
-    else if (pathname === "/projects") setActive("Projects");
+    if (pathname === "/") setActiveNavBarTab("Home");
+    else if (pathname === "/projects") setActiveNavBarTab("Projects");
+    else if (pathname === "/aPropos") setActiveNavBarTab("Arcadie?");
+    else if (pathname === "/contact") setActiveNavBarTab("Contact");
   }, []);
 
   return (
     <div className="flex items-center justify-between px-5 py-3 my-3">
-      <span className="text-xl font-bold border-b-4 md:text-2xl border-green">
-        {active}
+      <span className="text-xl font-bold border-b-4 md:text-2xl">
+        {activeNavBarTab}
       </span>
 
-      <div className="text-base font-normal md:text-xl">
-        <NavItem
-          active={active}
-          setActive={setActive}
-          name="A Propos"
-          route="/"
-        />
-        <NavItem
-          active={active}
-          setActive={setActive}
-          name="Projets"
-          route="/projects"
-        />
+      <div className="text-base md:text-xl">
+        <NavItem name="Home" route="/" />
+        <NavItem name="Projets" route="/projects" />
+        <NavItem name="Arcadie?" route="/aPropos" />
+        <NavItem name="Contact" route="/contact" />
       </div>
     </div>
   );

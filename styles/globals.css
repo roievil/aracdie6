@@ -9,8 +9,8 @@
 
 /* default text color */
 body {
-  color: #354358;
-  background-image: url("../public/images/arcadieBackGround.png") !important;
+  color: rgb(55 65 81);
+  /* background-image: url("../public/images/arcadieBackGround.png") !important; */
   background-repeat: repeat-y;
   background-size: 100% auto;
 }

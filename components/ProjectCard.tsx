@@ -56,7 +56,12 @@ const ProjectCard: FunctionComponent<{
 
           <div>
             <h2 className="mb-3 text-xl font-medium md:text-2xl">{name}</h2>
-            <h3 className="mb-3 font-medium">{description}</h3>
+            <h3
+              className="mb-3 font-medium"
+              dangerouslySetInnerHTML={{
+                __html: description,
+              }}
+            ></h3>
             <div className="flex flex-wrap mt-5 mb-20 space-x-2 text-sm tracking-wider">
               {key_techs.map((tech) => (
                 <span
@@ -67,7 +72,12 @@ const ProjectCard: FunctionComponent<{
                 </span>
               ))}
             </div>
-            <span className=" text-2xl">{selectedSlideLegend}</span>
+            <span
+              className=" text-2xl"
+              dangerouslySetInnerHTML={{
+                __html: selectedSlideLegend,
+              }}
+            ></span>
           </div>
 
           <button

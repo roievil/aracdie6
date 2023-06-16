@@ -6,8 +6,9 @@ export const NavItem: FunctionComponent<{
   handlerFilterCategory: Function;
   active: string;
 }> = ({ value, handlerFilterCategory, active }) => {
-  let className = "capitalize cursor-pointer hover:text-green";
-  if (active === value) className += " text-green";
+  let className =
+    "capitalize cursor-pointer font-normal text-gray-700 hover:text-gray-400";
+  if (active === value) className += " font-bold";
 
   return (
     <li className={className} onClick={() => handlerFilterCategory(value)}>
@@ -26,8 +27,9 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="Travail du Bois" {...props} />
       <NavItem value="Travail du Cuir" {...props} />
       <NavItem value="Découpe numérique" {...props} />
-      <NavItem value="Modélisation" {...props} />
       <NavItem value="Ebénisterie" {...props} />
+      <NavItem value="Modélisation" {...props} />
+      <NavItem value="Programmation" {...props} />
     </div>
   );
 };

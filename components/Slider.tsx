@@ -63,6 +63,8 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                   alt={slide.alt}
                   width={slide.width}
                   height={slide.height}
+                  placeholder="blur"
+                  blurDataURL="/images/loader.gif"
                 />
               </Link>
             </div>
