@@ -41,7 +41,7 @@ const About: NextPage = () => {
         <div className="grid gap-6 my-3 md:grid-cols-2 relative z-10">
           {services.map((service) => (
             <div
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1"
+              className="border-2 col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1  hover:border-gray-600"
               key={service.title}
             >
               <ServiceCard service={service} />

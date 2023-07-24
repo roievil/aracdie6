@@ -10,22 +10,27 @@ export interface IProject {
   image_path: string;
   category: Category;
   key_techs: string[];
-  pictures: IGalleryPicture[]
+  slides: IGallerySlide[]
 }
 
-export interface IGalleryPicture {
+export interface IGallerySlide {
   alt: string;
-  pictureLegend: string;
-  picturePath: string;
+  slideLegend: string;
+  slidePath: string;
   width: number;
   height: number;
+  type: "picture" | "video" ;
 }
 
 export interface IContextState {
-    currentCategory: Category,
+    currentCategory: Category | "All",
+    currentProject: IProject | null,
+    projects: IProject[],
     activeNavBarTab: string,
     setActiveNavBarTab: (activeNavBarTab: string) => void,
-    setCurrentCategory: (currentCategory: Category) => void,
+    setCurrentCategory: (currentCategory: Category | "All") => void,
+    setCurrentProject: (currentProject: IProject | null) => void,
+    setProjects: (previousProjects: IProject[]) => void,
 }
 
-export type Category = "Travail du Bois" | "Travail du Cuir" | "Découpe numérique" | "Ebénisterie" | "Modélisation" | "Programmation";
+export type Category = "Travail du Bois" | "Travail du Cuir" | "Découpe numérique" | "Ebénisterie" | "Modélisation" | "Programmation" | "noCategory";
