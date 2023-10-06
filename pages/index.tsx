@@ -1,22 +1,16 @@
 import {
-  GetServerSideProps,
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
   NextPage,
 } from "next";
-import Image from "next/image";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
 const About: NextPage = () => {
   return (
     <div
-      className="flex flex-col flex-grow px-6 bg-cover bg-center"
+      className="flex flex-col flex-grow px-6 bg-cover bg-bottom overflow-y-scroll"
       style={{
         height: "80vh",
         backgroundImage: "url('./images/accueil/IMG_1426BG.JPG')",
-        backgroundSize: "75%"
       }}
     >
       <div
