@@ -38,10 +38,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="border-b border-gray-400 flex items-center justify-between px-5 pb-3 my-3">
-      <span className="text-xl font-bold border-b-4 md:text-2xl">
-        {activeNavBarTab}
-      </span>
+    <div className=" border-gray-400 flex items-center justify-between px-5  my-3">
+      <div>
+        <span className="text-xl font-bold  md:text-2xl">
+          Atelier Arcadie :{" "}
+        </span>
+        <span className="text-xl font-bold border-b-4 md:text-2xl">
+          {activeNavBarTab}
+        </span>
+      </div>
 
       <div className="text-base md:text-xl">
         <NavItem name="Home" route="/" />

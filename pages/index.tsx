@@ -9,30 +9,24 @@ import Image from "next/image";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
-const bgImage = "/images/contact/portrait.jpg";
-
 const About: NextPage = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
-      <h6 className="my-3 text-base font-medium">
-        Bienvenue à l'Atelier Arcadie Un atelier c'est surtout des projets, mais
-        aussi un artisan !
-      </h6>
+    <div
+      className="flex flex-col flex-grow px-6 bg-cover bg-center"
+      style={{
+        height: "80vh",
+        backgroundImage: "url('./images/accueil/IMG_1426BG.JPG')",
+        backgroundSize: "75%"
+      }}
+    >
       <div
-        className="flex-grow p-4 mt-5 relative"
+        className="flex-grow p-4 relative"
         style={{
           marginLeft: "-1.5rem",
           marginRight: "-1.5rem",
         }}
       >
-        <div className="absolute inset-0">
-          <Image
-            src={bgImage}
-            layout="fill"
-            objectFit="cover"
-            alt="Background Image"
-          />
-        </div>
+        <div className="absolute inset-0"></div>
 
         <h4 className="my-3 text-xl font-semibold tracking-wide text-white relative z-10">
           Activités de l'atelier

@@ -19,6 +19,10 @@ const Slider = ({ slides, onSlideLegendChange }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
+  const handleBulletClick = (index: number) => {
+    setCurrent(index);
+  };
+
   useEffect(() => {
     onSlideLegendChange(slides[current].slideLegend);
   }, [current]);
@@ -43,23 +47,6 @@ const Slider = ({ slides, onSlideLegendChange }) => {
               className={`absolute top-0 left-0 h-full w-full transition-transform duration-1000 ${slideClass}`}
               style={{ transform: `translateX(${slidePosition}%)` }}
             >
-              <div className="absolute top-1/2 left-5 transform -translate-y-1/2">
-                <img
-                  src="/images/icons/Antu_arrow-left.svg"
-                  alt="Left Arrow"
-                  onClick={nextSlide}
-                  className="cursor-pointer w-12 h-12 fill-current text-white stroke-current"
-                />
-              </div>
-              <div className="absolute top-1/2 right-5 transform -translate-y-1/2">
-                <img
-                  src="/images/icons/Antu_arrow-right.svg"
-                  alt="Right Arrow"
-                  onClick={nextSlide}
-                  className="cursor-pointer w-12 h-12 fill-current text-white stroke-current"
-                />
-              </div>
-
               {isPictureSlide ? (
                 <Link
                   href={slide.slidePath}
@@ -77,17 +64,53 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                   />
                 </Link>
               ) : (
-                <ReactPlayer
-                  url={slide.slidePath}
-                  width={slide.width}
-                  height={slide.height}
-                  controls
-                  playing={current === index}
-                />
+                <div className="relative left-0 bottom-16">
+                  {/* Adjust the values here */}
+                  <ReactPlayer
+                    url={slide.slidePath}
+                    width={slide.width}
+                    height={slide.height}
+                    controls
+                    playing={current === index}
+                  />
+                </div>
               )}
             </div>
           );
         })}
+
+        {/* Bullet overlay */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          {slides.map((slide, index) => (
+            <button
+              key={index}
+              onClick={() => handleBulletClick(index)}
+              className={`w-2 h-2 rounded-full ${
+                current === index
+                  ? "bg-white border-2 border-black" // Active bullet color
+                  : "bg-black border-2 border-white" // Inactive bullet color
+              }`}
+            ></button>
+          ))}
+        </div>
+
+        {/* Arrows */}
+        <div className="absolute top-1/2 left-5 transform -translate-y-1/2">
+          <img
+            src="/images/icons/Antu_arrow-left.svg"
+            alt="Left Arrow"
+            onClick={prevSlide}
+            className="cursor-pointer w-12 h-12"
+          />
+        </div>
+        <div className="absolute top-1/2 right-5 transform -translate-y-1/2">
+          <img
+            src="/images/icons/Antu_arrow-right.svg"
+            alt="Right Arrow"
+            onClick={nextSlide}
+            className="cursor-pointer w-12 h-12"
+          />
+        </div>
       </div>
     </div>
   );

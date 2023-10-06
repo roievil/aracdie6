@@ -147,8 +147,8 @@ export const projects: IProject[] = [
                     slidePath: "/videos/laserMousse.mp4",
                     slideLegend: "decoupe laser sur mousse EVA",
                     alt: "decoupe laser sur mousse EVA",
-                    width: 500,
-                    height: 500
+                    width: 450,
+                    height: 450
                 },
                 {
                     type: "picture",
@@ -279,8 +279,8 @@ export const projects: IProject[] = [
                     slidePath: "/videos/laserValchro.mp4",
                     slideLegend: "decoupe laser sur valchro",
                     alt: "decoupe laser sur valchro",
-                    width: 500,
-                    height: 500
+                    width: 650,
+                    height: 650
                 },
                 {
                     type: "picture",
@@ -389,6 +389,64 @@ export const projects: IProject[] = [
                     alt: "coffret noir inscrustations d'argent",
                     width: 1620,
                     height: 1620
+                }
+            ]
+  }
+  ,
+  { 
+    name: "Impression 3D céramique",
+    description:
+      "<span>Programmation d'une cinématique non planaire pour le designer et concepteur de la machine <a class=\"underline hover:no-underline\" href=\"https://www.yoannbordespages.com\" target=\"_blank\" rel=\"noopener noreferrer\">Yoann Bordès Pages</a>, à Nantes.</span>",
+    image_path: "/images/projets/programmation/impression3dCeramique/impression3dCeramique.jpg",
+    category: "Programmation",
+    key_techs: ["Prototypage", "Découpe laser"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique20.jpg",
+                    slideLegend: "Une cinématique non planaire signifie que l'argile n'est pas déposée en couches planes mais plutôt en suivant une hélice.",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique25.jpg",
+                    slideLegend: "Le défi supplémentaire de ce projet est aussi d'imprimer dans un moule, ce qui permet d'obtenir des formes concaves sans avoir recours à un échaffaudage",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique45.jpg",
+                    slideLegend: "Sur cette deuxième pièce le non planaire prends tout son sens.",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },                                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique40.jpg",
+                    slideLegend: "Après avoir fait la spirale plane au centre, la tête d'impression redescend pour remplir les trois pieds.  ",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                                                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique50.jpg",
+                    slideLegend: "au niveau des pieds les spires sont plus écartées il faut donc faire aussi varier la valeur d'extrusion pour remplir d'avantage.",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "video",
+                    slidePath: "/videos/impression3dCeramique.mp4",
+                    slideLegend: "Impression de la première pièce.",
+                    alt: "Impression 3D céramique",
+                    width: 650,
+                    height: 650
                 }
             ]
   }
