@@ -13,7 +13,7 @@ const APropos: NextPage = () => {
       }}
     >
       <div
-        className="flex flex-col justify-end p-8 text-white text-2xl flex-grow md:px-32 xl:px-72 "
+        className="flex flex-col justify-end p-8 text-white text-2xl flex-grow md:px-32 xl:px-96 "
         style={{
           textIndent: "1em",
           margin: "auto",

@@ -38,7 +38,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className=" border-gray-400 flex items-center justify-between px-5  my-3">
+    <div className=" flex items-center justify-between px-5  my-3">
       <div>
         <span className="text-xl font-bold  md:text-2xl">
           Atelier Arcadie :{" "}
