@@ -13,10 +13,9 @@ const APropos: NextPage = () => {
       }}
     >
       <div
-        className="flex flex-col justify-end p-8 text-white text-2xl flex-grow"
+        className="flex flex-col justify-end p-8 text-white text-2xl flex-grow md:px-32 xl:px-72 "
         style={{
           textIndent: "1em",
-          maxWidth: "66%",
           margin: "auto",
           textShadow: "0px 1px 4px #000",
           minHeight: "100%", // Set minimum height to ensure it takes up the full height
