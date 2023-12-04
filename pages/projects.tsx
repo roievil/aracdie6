@@ -42,9 +42,10 @@ const Projects = () => {
   if (currentProject) {
     return (
       <div
-        className="px-5 py-2 overflow-y-scroll  border-gray-400 border-t"
+        className="px-5 py-2 overflow-y-scroll border-gray-400 border-t"
         style={{ height: "80vh" }}
       >
+        
         <ProjectsNavbar />
         <div className="relative">
           <ProjectCard project={currentProject} />
@@ -53,7 +54,10 @@ const Projects = () => {
     );
   } else {
     return (
-      <div className="px-5 py-2 overflow-y-scroll" style={{ height: "80vh" }}>
+      <div
+        className="px-5 py-2 overflow-y-scroll border-gray-400 border-t"
+        style={{ height: "80vh" }}
+      >
         <ProjectsNavbar />
         <div className="relative grid grid-cols-12 gap-4 my-3">
           {projects.map((project) => (

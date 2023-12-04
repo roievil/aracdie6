@@ -9,6 +9,7 @@ export interface IProject {
   description: string;
   image_path: string;
   category: Category;
+  whiteBg: boolean;
   key_techs: string[];
   slides: IGallerySlide[]
 }

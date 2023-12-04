@@ -35,23 +35,24 @@ const ProjectCard: FunctionComponent<{
 
   if (project) {
     return (
-      <div className="relative">
-        <Image
-          src={project.image_path}
-          alt={project.name}
-          className="cursor-pointer"
+      <div className="relative overflow-hidden">
+        <div
+          className={`cursor-pointer ${showDetail ? "hidden" : ""}`}
           onClick={() => handleShowDetail()}
-          height="400"
-          width="400"
-          priority
-        />
-        {/* <img
-        src={image_path}
-        alt={name}
-        className="cursor-pointer"
-        onClick={() => setShowDetail(true)}
-      /> */}
-        <p className="my-2 text-center">{project.name}</p>
+        >
+          <Image
+            src={project.image_path}
+            alt={project.name}
+            className="object-cover w-full h-full"
+            height="400" // Adjust this value to suit your layout
+            width="400" // Adjust this value to suit your layout
+            priority
+          />
+          {/* Project Name Overlay */}
+          <p className={`absolute bottom-5 left-1/2 transform -translate-x-1/2 ${project.whiteBg ? 'text-black' : 'text-white'} text-center font-bold text-lg`}>
+            <span className="text-shadow-white">{project.name}</span>
+          </p>
+        </div>
 
         {currentProject && (
           <div className="absolute top-0 left-0 z-10 grid w-full h p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 rounded-lg">

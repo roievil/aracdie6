@@ -40,9 +40,7 @@ const Navbar = () => {
   return (
     <div className=" flex items-center justify-between px-5  my-3">
       <div>
-        <span className="text-xl font-bold  md:text-2xl">
-          Atelier Arcadie :{" "}
-        </span>
+
         <span className="text-xl font-bold border-b-4 md:text-2xl">
           {activeNavBarTab}
         </span>
