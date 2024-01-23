@@ -1,40 +1,43 @@
 import { IProject, Service } from "./types";
 
 export const services: Service[] = [
-  {
-    icon: "/images/icons/sawBlade.svg",
-    title: "Travail du Bois",
-    about:
-      "L'atelier est équipé de machines à bois traditionnelles dimensionnées pour du <b>mobilier</b> et <b>petits objets</b>"
-  },
-  {
-    icon: "/images/icons/leather.svg",
-    title: "Travail du Cuir",
-    about:
-      "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
-  },
-  {
-    icon: "/images/icons/laser.svg",
-    title: "Découpe numérique",
-    about:
-      "L'atelier est équipé d'une <b>découpeuse laser</b> et d'une <b>fraiseuse numérique</b> avec lesquelles je réalise les pièces elles mêmes ou bien des gabarits pour régler les machines traditionnelles.",
-  },
     {
+    icon: "/images/icons/robot.svg",
+    title: "Programmation",
+    about:
+      "Je suis programmeur et <b>automaticien</b>, spécialiste de <b>Grasshopper</b>, à l'aide de quoi je peux programmer des objets paramétriques, des parcours d'outils ou des workflow sur mesure à vos besoins",
+  },
+      {
     icon: "/images/icons/ornament.svg",
     title: "Ebénisterie",
     about:
       "Je suis <b>ébéniste</b> et j'ai adapté les techniques d'<b>ornementation</b> traditionelles de ce métier aux machines <b>numériques</b> : marqueterie, incrustations, gravures...",
   },
-  {
-    icon: "/images/icons/robot.svg",
-    title: "Programmation",
+    {
+    icon: "/images/icons/laser.svg",
+    title: "Découpe numérique",
     about:
-      "Je suis programmeur et <b>automaticien</b>, spécialiste de <b>Grasshopper</b>, à l'aide de quoi je peux programmer des objets paramétriques, des parcours d'outils ou des workflow sur mesure à vos besoins",
+      "L'atelier est équipé d'une <b>découpeuse laser</b> et d'une <b>fraiseuse numérique</b> avec lesquelles je réalise les pièces elles mêmes ou bien des gabarits pour régler les machines traditionnelles.",
   },  {
+    icon: "/images/icons/leather.svg",
+    title: "Travail du Cuir",
+    about:
+      "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
+  },   {
     icon: "/images/icons/modeling.svg",
     title: "Modélisation",
     about: "J'utilise notamment <b>Rhinoceros 3D</b> dans ma pratique et je suis aussi <b>formateur</b> sur ce logiciel, en distanciel aussi bien que sur place, dans votre établissement.",
   },
+
+ {
+    icon: "/images/icons/sawBlade.svg",
+    title: "Travail du Bois",
+    about:
+      "L'atelier est équipé de machines à bois traditionnelles dimensionnées pour du <b>mobilier</b> et <b>petits objets</b>"
+  },
+
+
+
 ];
 
 export const projects: IProject[] = [

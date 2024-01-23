@@ -1,6 +1,4 @@
-import {
-  NextPage,
-} from "next";
+import { NextPage } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
@@ -23,7 +21,7 @@ const About: NextPage = () => {
         <div className="absolute inset-0"></div>
 
         <h4 className="my-3 text-xl font-semibold tracking-wide text-white relative z-10">
-          Activités de l'atelier
+          Activités de l'atelier Arcadie
         </h4>
 
         <div className="grid gap-6 my-3 md:grid-cols-2 relative z-10">

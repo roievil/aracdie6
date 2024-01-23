@@ -11,7 +11,7 @@ const Projects = () => {
   ) as IContextState;
 
   useEffect(() => {
-    console.log("currentCategory has been changed to ", currentCategory);
+    console.log("currentCategory  ", currentCategory);
     if (currentCategory) {
       handlerFilterCategory(currentCategory);
     }
@@ -22,7 +22,10 @@ const Projects = () => {
   }, [projects]);
 
   const handlerFilterCategory = (category: Category | "All") => {
-    console.log("category from handlerFilterCategory", category);
+    console.log(
+      "from handlerFilter category has been changed to",
+      category
+    );
     //if category is "All" then we get the original list of projects
     if (category === "All") {
       console.log("category === all");
