@@ -414,14 +414,6 @@ export const projects: IProject[] = [
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
                 slides: [
                 {
-                    type: "video",
-                    slidePath: "/videos/laserValchro.mp4",
-                    slideLegend: "decoupe laser sur valchro",
-                    alt: "decoupe laser sur valchro",
-                    width: 650,
-                    height: 650
-                },
-                {
                     type: "picture",
                     slidePath: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
                     slideLegend: "Plumier / Porte carte Kopis Structure en valchromat noir et gris, inclusions de laiton.",
@@ -460,6 +452,14 @@ export const projects: IProject[] = [
                     alt: "coffret noir inscrustations d'argent",
                     width: 1620,
                     height: 1620
+                },
+                                {
+                    type: "video",
+                    slidePath: "/videos/laserValchro.mp4",
+                    slideLegend: "decoupe laser sur valchro",
+                    alt: "decoupe laser sur valchro",
+                    width: 650,
+                    height: 650
                 }
             ]
   },

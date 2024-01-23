@@ -29,12 +29,12 @@ const ProjectsNavbar: FunctionComponent = (props) => {
   return (
     <div className="flex px-4 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value="All" {...props} />
-      <NavItem value="Travail du Bois" {...props} />
-      <NavItem value="Travail du Cuir" {...props} />
-      <NavItem value="Découpe numérique" {...props} />
-      <NavItem value="Ebénisterie" {...props} />
-      <NavItem value="Modélisation" {...props} />
       <NavItem value="Programmation" {...props} />
+      <NavItem value="Ebénisterie" {...props} />
+      <NavItem value="Découpe numérique" {...props} />
+      <NavItem value="Modélisation" {...props} />
+      <NavItem value="Travail du Cuir" {...props} />
+      <NavItem value="Travail du Bois" {...props} />
     </div>
   );
 };

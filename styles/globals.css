@@ -7,11 +7,16 @@
    color: #354358;
 } */
 
+/* body {
+   font-family: sans-serif;
+   color: #d8d9dd;
+} */
+
 /* default text color */
 body {
   color: rgb(55 65 81);
   /* background-image: url("../public/images/arcadieBackGround.png") !important; */
   background-repeat: repeat-y;
   background-size: 100% auto;
-  background-color: bisque;
+  background-color: rgb(214, 224, 240);
 }

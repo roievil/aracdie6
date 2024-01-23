@@ -14,7 +14,7 @@ const NavItem: FunctionComponent<{
   return activeNavBarTab !== name ? (
     <Link href={route}>
       <span
-        className="mx-2 cursor-pointer border-b-4 text-gray-700 border-transparent hover:border-gray-200 hover:text-gray-400"
+        className="mx-2 cursor-pointer border-b-4 text-gray-700 border-transparent hover:border-white hover:text-gray-400"
         onClick={() => setActiveNavBarTab(name)}
       >
         {name}

@@ -63,7 +63,7 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                   />
                 </Link>
               ) : (
-                <div className="relative left-0 bottom-16">
+                <div className="relative flex justify-center items-center">
                   {/* Adjust the values here */}
                   <ReactPlayer
                     url={slide.slidePath}

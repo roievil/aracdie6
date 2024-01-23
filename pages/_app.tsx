@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <div className="grid p-5  md:p-12 ">
-        <div className="border border-gray-400 flex flex-col col-span-12 overflow-hidden bg-white shadow-custom-light rounded-2xl lg:col-span-9">
+        <div className="border  bg-zinc-200 border-gray-400 flex flex-col col-span-12 overflow-hidden shadow-custom-light rounded-2xl lg:col-span-9">
           <GlobalProvider>
             {/* //!navbar */}
             <Navbar />
