@@ -67,6 +67,7 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                   {/* Adjust the values here */}
                   <ReactPlayer
                     url={slide.slidePath}
+                    type="video/mp4"
                     width={slide.width}
                     height={slide.height}
                     controls
