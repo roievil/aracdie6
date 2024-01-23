@@ -66,9 +66,7 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                 <div className="relative left-0 bottom-16">
                   {/* Adjust the values here */}
                   <ReactPlayer
-                    url={
-                      "http://s569958984.onlinehome.fr/videos/impression3dCeramique.mp4"
-                    }
+                    url={slide.slidePath}
                     width={slide.width}
                     height={slide.height}
                     controls
