@@ -60,7 +60,6 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                     height={slide.height}
                     placeholder="blur"
                     blurDataURL="/images/loader.gif"
-                    loading="lazy" // Add loading attribute
                   />
                 </Link>
               ) : (

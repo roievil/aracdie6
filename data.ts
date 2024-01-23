@@ -47,7 +47,7 @@ export const projects: IProject[] = [
       "Commande pour l'édition 2023",
     image_path: "/images/projets/bois/trophees/trophee10ParArcadie.jpg",
     whiteBg: false,
-    category: "Travail du Bois",
+    category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
                 slides: [
                 {
@@ -180,7 +180,7 @@ export const projects: IProject[] = [
       "<span>Conçu pour la <a class=\"underline hover:no-underline\" href=\"https://www.bijouteriegriffon.com\" target=\"_blank\" rel=\"noopener noreferrer\">bijouterie / joaillerie Griffon</a> à Nantes.</span>",
     image_path: "/images/projets/bois/coffrets/coffretGriffon10ParArcadie.jpg",
     whiteBg: false,
-    category: "Travail du Bois",
+    category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
                 slides: [
                 {
@@ -319,7 +319,7 @@ export const projects: IProject[] = [
       "Commande particulière",
     image_path: "/images/projets/bois/coffrets/samson10parArcadie.jpg",
     whiteBg: false,
-    category: "Travail du Bois",
+    category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
                 slides: [
                 {
@@ -410,7 +410,7 @@ export const projects: IProject[] = [
       "Collection Styx",
     image_path: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
     whiteBg: true,
-    category: "Travail du Bois",
+    category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
                 slides: [
                 {

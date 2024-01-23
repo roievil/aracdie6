@@ -61,23 +61,16 @@ const ProjectCard: FunctionComponent<{
       return (
         <div>
           {
-            <div className="absolute top-0 left-0 z-10 grid w-full h p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 rounded-lg">
+            <div className="absolute top-0 left-0 z-10 w-full grid p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 rounded-lg">
               <div className="overflow-hidden">
                 {/* <img src={image_path} alt={name} /> */}
                 <Slider
                   slides={project.slides}
                   onSlideLegendChange={handleSlideLegendChange}
                 />
-                {/* <Image
-              src={image_path}
-              alt={name}
-              layout="responsive"
-              height="150"
-              width="300"
-            /> */}
               </div>
 
-              <div>
+              <div className="">
                 <h2 className="mb-3 text-xl font-medium md:text-2xl">
                   {project.name}
                 </h2>
