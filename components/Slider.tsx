@@ -56,6 +56,7 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                   <Image
                     src={slide.slidePath}
                     alt={slide.alt}
+                    className="object-cover w-full h-full"
                     width={slide.width}
                     height={slide.height}
                     placeholder="blur"
