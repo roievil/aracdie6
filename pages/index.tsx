@@ -12,6 +12,7 @@ const About: NextPage = () => {
       style={{
         height: "80vh",
         backgroundImage: "url('./images/accueil/arcadieBannerFond.png')",
+        backgroundColor: "9aa0a8",
       }}
     >
       <div className="flex flex-col items-center justify-center md:flex-row w-3/4 md:w-full mx-auto">

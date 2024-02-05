@@ -13,22 +13,23 @@ export const services: Service[] = [
     about:
       "Je suis <b>ébéniste</b> et j'ai adapté les techniques d'<b>ornementation</b> traditionelles de ce métier aux machines <b>numériques</b> : marqueterie, incrustations, gravures...",
   },
-    {
-    icon: "/images/icons/laser.svg",
-    title: "Découpe numérique",
-    about:
-      "L'atelier est équipé d'une <b>découpeuse laser</b> et d'une <b>fraiseuse numérique</b> avec lesquelles je réalise les pièces elles mêmes ou bien des gabarits pour régler les machines traditionnelles.",
-  },  {
-    icon: "/images/icons/leather.svg",
-    title: "Travail du Cuir",
-    about:
-      "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
-  },   {
+     {
     icon: "/images/icons/modeling.svg",
     title: "Modélisation",
     about: "J'utilise notamment <b>Rhinoceros 3D</b> dans ma pratique et je suis aussi <b>formateur</b> sur ce logiciel, en distanciel aussi bien que sur place, dans votre établissement.",
   },
-
+  {
+    icon: "/images/icons/leather.svg",
+    title: "Travail du Cuir",
+    about:
+      "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
+  },
+      {
+    icon: "/images/icons/laser.svg",
+    title: "Découpe numérique",
+    about:
+      "L'atelier est équipé d'une <b>découpeuse laser</b> et d'une <b>fraiseuse numérique</b> avec lesquelles je réalise les pièces elles mêmes ou bien des gabarits pour régler les machines traditionnelles.",
+  },
  {
     icon: "/images/icons/sawBlade.svg",
     title: "Travail du Bois",
@@ -38,10 +39,173 @@ export const services: Service[] = [
 
 
 
+
 ];
 
 export const projects: IProject[] = [
     { 
+    name: "Impression 3D céramique",
+    description:
+      "<span>Programmation d'une cinématique non planaire pour le designer et concepteur de la machine <a class=\"underline hover:no-underline\" href=\"https://www.yoannbordespages.com\" target=\"_blank\" rel=\"noopener noreferrer\">Yoann Bordès Pages</a>, à Nantes.</span>",
+    image_path: "/images/projets/programmation/impression3dCeramique/impression3dCeramique.jpg",
+    whiteBg: false,
+    category: "Programmation",
+    key_techs: ["Prototypage", "Découpe laser"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique20.jpg",
+                    slideLegend: "Une cinématique non planaire signifie que l'argile n'est pas déposée en couches planes mais plutôt en suivant une hélice.",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique25.jpg",
+                    slideLegend: "Le défi supplémentaire de ce projet est aussi d'imprimer dans un moule, ce qui permet d'obtenir des formes concaves sans avoir recours à un échaffaudage",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique45.jpg",
+                    slideLegend: "Sur cette deuxième pièce le non planaire prends tout son sens.",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },                                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique40.jpg",
+                    slideLegend: "Après avoir fait la spirale plane au centre, la tête d'impression redescend pour remplir les trois pieds.  ",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                                                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique50.jpg",
+                    slideLegend: "au niveau des pieds les spires sont plus écartées il faut donc faire aussi varier la valeur d'extrusion pour remplir d'avantage.",
+                    alt: "Impression 3D céramique",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "video",
+                    slidePath: "/videos/impression3dCeramique.mp4",
+                    slideLegend: "Impression de la première pièce.",
+                    alt: "Impression 3D céramique",
+                    width: 650,
+                    height: 650
+                }
+            ]
+  },
+  ,
+    { 
+    name: "Tables basses RIVA",
+    description:
+      "<span>Modelisation et conception des gabarits de façonnage et collage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
+    image_path: "/images/projets/modelisation/tableRiva/riva.jpg",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva10.jpeg",
+                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva20.jpg",
+                    slideLegend: "Modelisation des deux tables",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva25.jpg",
+                    slideLegend: "Il s'agit donc de deux tables constituées de la répétition de deux pièces de noyer massif et de leurs connecteurs.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva30.jpg",
+                    slideLegend: "Détail de la table 1400.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva40.jpg",
+                    slideLegend: "Vue de profil cotée des pièces répétées de la table 1200.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva50.jpeg",
+                    slideLegend: "Gabarit de collage / placement de la table 1200, réalisé à l'aide de la découpeuse laser.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva60.jpeg",
+                    slideLegend: "Gabarit de collage / placement de la table 1400.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva70.jpeg",
+                    slideLegend: "Usage du gabarit.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva80.jpg",
+                    slideLegend: "Fichiers d'usinage des gabarits de rabotage des pièces répétées. Les gabarits sont usinées à l'aide d'une 5 axe à l'atelier <a class=\"underline hover:no-underline\" href=\"https://www.usinage-numerique-bois.fr\" target=\"_blank\" rel=\"noopener noreferrer\">UTB</a>.</span>.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva85.jpeg",
+                    slideLegend: "La table 1400 terminée.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva90.jpeg",
+                    slideLegend: "La table 1200 dans l'atelier de Jules Battais, Clisson.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+            ]
+  },,
+  { 
     name: "Trophées pour le festival des 3 continents",
     description:
       "Commande pour l'édition 2023",
@@ -117,60 +281,77 @@ export const projects: IProject[] = [
             ]
   },
     { 
-    name: "Impression 3D céramique",
+    name: "Rocking chair",
     description:
-      "<span>Programmation d'une cinématique non planaire pour le designer et concepteur de la machine <a class=\"underline hover:no-underline\" href=\"https://www.yoannbordespages.com\" target=\"_blank\" rel=\"noopener noreferrer\">Yoann Bordès Pages</a>, à Nantes.</span>",
-    image_path: "/images/projets/programmation/impression3dCeramique/impression3dCeramique.jpg",
-    whiteBg: false,
-    category: "Programmation",
-    key_techs: ["Prototypage", "Découpe laser"],
+      "<span>Modelisation et conception des gabarits de cintrage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
+    image_path: "/images/projets/modelisation/chaiseJules/chaiseJules10.jpeg",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
                 slides: [
                 {
                     type: "picture",
-                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique20.jpg",
-                    slideLegend: "Une cinématique non planaire signifie que l'argile n'est pas déposée en couches planes mais plutôt en suivant une hélice.",
-                    alt: "Impression 3D céramique",
-                    width: 1620,
-                    height: 1620
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules20.jpeg",
+                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
                 },
                 {
                     type: "picture",
-                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique25.jpg",
-                    slideLegend: "Le défi supplémentaire de ce projet est aussi d'imprimer dans un moule, ce qui permet d'obtenir des formes concaves sans avoir recours à un échaffaudage",
-                    alt: "Impression 3D céramique",
-                    width: 1620,
-                    height: 1620
-                },
-                                {
-                    type: "picture",
-                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique45.jpg",
-                    slideLegend: "Sur cette deuxième pièce le non planaire prends tout son sens.",
-                    alt: "Impression 3D céramique",
-                    width: 1620,
-                    height: 1620
-                },                                {
-                    type: "picture",
-                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique40.jpg",
-                    slideLegend: "Après avoir fait la spirale plane au centre, la tête d'impression redescend pour remplir les trois pieds.  ",
-                    alt: "Impression 3D céramique",
-                    width: 1620,
-                    height: 1620
-                },
-                                                {
-                    type: "picture",
-                    slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique50.jpg",
-                    slideLegend: "au niveau des pieds les spires sont plus écartées il faut donc faire aussi varier la valeur d'extrusion pour remplir d'avantage.",
-                    alt: "Impression 3D céramique",
-                    width: 1620,
-                    height: 1620
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules40.jpeg",
+                    slideLegend: "Modélisation du meuble et aide à la fabrication : les berces et la coque seront réalisées par cintrage de lamelles ou feuilles de bois.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
                 },
                 {
-                    type: "video",
-                    slidePath: "/videos/impression3dCeramique.mp4",
-                    slideLegend: "Impression de la première pièce.",
-                    alt: "Impression 3D céramique",
-                    width: 650,
-                    height: 650
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules50.jpeg",
+                    slideLegend: "Pour réaliser des pièces de bois cintrées il faut encoller les lamelles puis les serrer dans un gabarit en deux parties : forme et contreforme.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules60.jpeg",
+                    slideLegend: "Fichiers d'usinage des gabarits pour les berces",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules70.jpeg",
+                    slideLegend: "Gabarits en cours d'usinage.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules80.jpeg",
+                    slideLegend: "Gabarits prêts à l'usage, les deux parties de chaque gabarits coulissent l'une sur l'autre, grâce à des guides qui permettent aussi de garder un alignement parfait et donc permettent un serrage optimal.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules95.jpeg",
+                    slideLegend: "Le fauteuil terminé.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules99.jpeg",
+                    slideLegend: "Détail des berces.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
                 }
             ]
   },
@@ -495,184 +676,6 @@ export const projects: IProject[] = [
                     alt: "étuis en cuir pour liseuse kobo",
                     width: 1620,
                     height: 1620
-                }
-            ]
-  },
-    { 
-    name: "Tables basses RIVA",
-    description:
-      "<span>Modelisation et conception des gabarits de façonnage et collage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
-    image_path: "/images/projets/modelisation/tableRiva/riva.jpg",
-    whiteBg: true,
-    category: "Modélisation",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
-                slides: [
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva10.jpeg",
-                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva20.jpg",
-                    slideLegend: "Modelisation des deux tables",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva25.jpg",
-                    slideLegend: "Il s'agit donc de deux tables constituées de la répétition de deux pièces de noyer massif et de leurs connecteurs.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva30.jpg",
-                    slideLegend: "Détail de la table 1400.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva40.jpg",
-                    slideLegend: "Vue de profil cotée des pièces répétées de la table 1200.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva50.jpeg",
-                    slideLegend: "Gabarit de collage / placement de la table 1200, réalisé à l'aide de la découpeuse laser.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva60.jpeg",
-                    slideLegend: "Gabarit de collage / placement de la table 1400.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                }
-                ,
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva70.jpeg",
-                    slideLegend: "Usage du gabarit.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                }
-                ,
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva80.jpg",
-                    slideLegend: "Fichiers d'usinage des gabarits de rabotage des pièces répétées. Les gabarits sont usinées à l'aide d'une 5 axe à l'atelier <a class=\"underline hover:no-underline\" href=\"https://www.usinage-numerique-bois.fr\" target=\"_blank\" rel=\"noopener noreferrer\">UTB</a>.</span>.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                }
-                                ,
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva85.jpeg",
-                    slideLegend: "La table 1400 terminée.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                }
-                ,
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva90.jpeg",
-                    slideLegend: "La table 1200 dans l'atelier de Jules Battais, Clisson.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                }
-            ]
-  },
-    { 
-    name: "Rocking chair",
-    description:
-      "<span>Modelisation et conception des gabarits de cintrage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
-    image_path: "/images/projets/modelisation/chaiseJules/chaiseJules10.jpeg",
-    whiteBg: true,
-    category: "Modélisation",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
-                slides: [
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules20.jpeg",
-                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules40.jpeg",
-                    slideLegend: "Modélisation du meuble et aide à la fabrication : les berces et la coque seront réalisées par cintrage de lamelles ou feuilles de bois.",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules50.jpeg",
-                    slideLegend: "Pour réaliser des pièces de bois cintrées il faut encoller les lamelles puis les serrer dans un gabarit en deux parties : forme et contreforme.",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules60.jpeg",
-                    slideLegend: "Fichiers d'usinage des gabarits pour les berces",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules70.jpeg",
-                    slideLegend: "Gabarits en cours d'usinage.",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules80.jpeg",
-                    slideLegend: "Gabarits prêts à l'usage, les deux parties de chaque gabarits coulissent l'une sur l'autre, grâce à des guides qui permettent aussi de garder un alignement parfait et donc permettent un serrage optimal.",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules95.jpeg",
-                    slideLegend: "Le fauteuil terminé.",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules99.jpeg",
-                    slideLegend: "Détail des berces.",
-                    alt: "rocking Chair templates",
-                    width: 2560,
-                    height: 2560
                 }
             ]
   },
