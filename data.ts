@@ -409,7 +409,7 @@ export const projects: IProject[] = [
     description:
       "Collection Styx",
     image_path: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
-    whiteBg: true,
+    whiteBg: false,
     category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
                 slides: [
@@ -417,7 +417,7 @@ export const projects: IProject[] = [
                     type: "picture",
                     slidePath: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
                     slideLegend: "Plumier / Porte carte Kopis Structure en valchromat noir et gris, inclusions de laiton.",
-                    alt: "coffret noir inscrustations d'argent",
+                    alt: "porteplume en valchromat noir",
                     width: 1620,
                     height: 1620
                 },
@@ -425,31 +425,31 @@ export const projects: IProject[] = [
                     type: "picture",
                     slidePath: "/images/projets/bois/coffrets/Kopis20parArcadie.jpg",
                     slideLegend: "Modèle Kopis : Longueur 393mm, Largeur 70mm, Épaisseur 16mm",
-                    alt: "coffret noir inscrustations d'argent",
+                    alt: "porteplume en valchromat noir",
                     width: 1620,
                     height: 1620
                 },
                 {
                     type: "picture",
                     slidePath: "/images/projets/bois/coffrets/Kopis30parArcadie.jpg",
-                    slideLegend: "Réalisée en valchromat noir, l’abattant et les 5 tiroirs sont ornementés de fil d’argent massif.",
-                    alt: "coffret noir inscrustations d'argent",
+                    slideLegend: "Le porteplume comporte des logements pour cartes de visite.",
+                    alt: "porteplume en valchromat noir",
                     width: 1620,
                     height: 1620
                 },
                 {
                     type: "picture",
                     slidePath: "/images/projets/bois/coffrets/Kopis40parArcadie.jpg",
-                    slideLegend: "Détail des crochets à colliers réalisés en aluminium poli.",
-                    alt: "coffret noir inscrustations d'argent",
+                    slideLegend: "",
+                    alt: "porteplume en valchromat noir",
                     width: 1620,
                     height: 1620
                 },
                 {
                     type: "picture",
                     slidePath: "/images/projets/bois/coffrets/Kopis50parArcadie.jpg",
-                    slideLegend: "Les colonnes sont elles aussi en aluminium poli. ",
-                    alt: "coffret noir inscrustations d'argent",
+                    slideLegend: "",
+                    alt: "porteplume en valchromat noir",
                     width: 1620,
                     height: 1620
                 },
@@ -457,7 +457,7 @@ export const projects: IProject[] = [
                     type: "video",
                     slidePath: "/videos/laserValchro.mp4",
                     slideLegend: "decoupe laser sur valchro",
-                    alt: "decoupe laser sur valchro",
+                    alt: "porteplume en valchromat noir",
                     width: 650,
                     height: 650
                 }
@@ -475,26 +475,204 @@ export const projects: IProject[] = [
                 {
                     type: "picture",
                     slidePath: "/images/projets/cuir/pochetteCuirLiseuseParArcadie23.jpg",
-                    slideLegend: "Réalisée en valchromat noir, l’abattant et les 5 tiroirs sont ornementés de fil d’argent massif.",
-                    alt: "coffret noir inscrustations d'argent",
+                    slideLegend: "Etuis sur mesure pour une liseuse.",
+                    alt: "étuis en cuir pour liseuse kobo",
                     width: 1620,
                     height: 1620
                 },
                 {
                     type: "picture",
                     slidePath: "/images/projets/cuir/pochetteCuirLiseuseParArcadie.jpg",
-                    slideLegend: "Les portes latérales ont des rangements pour colliers, l’abattant est muni d’une glace sur l’envers. ",
-                    alt: "coffret noir inscrustations d'argent",
+                    slideLegend: "Les découpes des pièces en cuir sont réalisées à l'aide de la découpeuse laser. ",
+                    alt: "étuis en cuir pour liseuse kobo",
                     width: 1620,
                     height: 1620
                 },
                 {
                     type: "picture",
                     slidePath: "/images/projets/cuir/pochetteCuirLiseuseParArcadie32.jpg",
-                    slideLegend: "",
-                    alt: "coffret noir inscrustations d'argent",
+                    slideLegend: "La couture est elle aussi facilitée par la découpe au laser, un lacet est passé dans les oeillets prévu en amont.",
+                    alt: "étuis en cuir pour liseuse kobo",
                     width: 1620,
                     height: 1620
+                }
+            ]
+  },
+    { 
+    name: "Tables basses RIVA",
+    description:
+      "<span>Modelisation et conception des gabarits de façonnage et collage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
+    image_path: "/images/projets/modelisation/tableRiva/riva.jpg",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva10.jpeg",
+                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva20.jpg",
+                    slideLegend: "Modelisation des deux tables",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva25.jpg",
+                    slideLegend: "Il s'agit donc de deux tables constituées de la répétition de deux pièces de noyer massif et de leurs connecteurs.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva30.jpg",
+                    slideLegend: "Détail de la table 1400.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva40.jpg",
+                    slideLegend: "Vue de profil cotée des pièces répétées de la table 1200.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva50.jpeg",
+                    slideLegend: "Gabarit de collage / placement de la table 1200, réalisé à l'aide de la découpeuse laser.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva60.jpeg",
+                    slideLegend: "Gabarit de collage / placement de la table 1400.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva70.jpeg",
+                    slideLegend: "Usage du gabarit.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva80.jpg",
+                    slideLegend: "Fichiers d'usinage des gabarits de rabotage des pièces répétées. Les gabarits sont usinées à l'aide d'une 5 axe à l'atelier <a class=\"underline hover:no-underline\" href=\"https://www.usinage-numerique-bois.fr\" target=\"_blank\" rel=\"noopener noreferrer\">UTB</a>.</span>.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva85.jpeg",
+                    slideLegend: "La table 1400 terminée.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+                ,
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva90.jpeg",
+                    slideLegend: "La table 1200 dans l'atelier de Jules Battais, Clisson.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+            ]
+  },
+    { 
+    name: "Rocking chair",
+    description:
+      "<span>Modelisation et conception des gabarits de cintrage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
+    image_path: "/images/projets/modelisation/chaiseJules/chaiseJules10.jpeg",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules20.jpeg",
+                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules40.jpeg",
+                    slideLegend: "Modélisation du meuble et aide à la fabrication : les berces et la coque seront réalisées par cintrage de lamelles ou feuilles de bois.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules50.jpeg",
+                    slideLegend: "Pour réaliser des pièces de bois cintrées il faut encoller les lamelles puis les serrer dans un gabarit en deux parties : forme et contreforme.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules60.jpeg",
+                    slideLegend: "Fichiers d'usinage des gabarits pour les berces",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules70.jpeg",
+                    slideLegend: "Gabarits en cours d'usinage.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules80.jpeg",
+                    slideLegend: "Gabarits prêts à l'usage, les deux parties de chaque gabarits coulissent l'une sur l'autre, grâce à des guides qui permettent aussi de garder un alignement parfait et donc permettent un serrage optimal.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules95.jpeg",
+                    slideLegend: "Le fauteuil terminé.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules99.jpeg",
+                    slideLegend: "Détail des berces.",
+                    alt: "rocking Chair templates",
+                    width: 2560,
+                    height: 2560
                 }
             ]
   },
