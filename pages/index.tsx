@@ -15,7 +15,7 @@ const About: NextPage = () => {
         backgroundColor: "9aa0a8",
       }}
     >
-      <div className="flex flex-col items-center justify-center md:flex-row w-3/4 md:w-full mx-auto">
+      <div className="flex flex-col items-center justify-center md:flex-row w-3/4 md:w-full mx-auto md:grow">
         <div className="md:mt-3 px-6 md:mb-0">
           <Image
             src={bannner1}
@@ -37,7 +37,7 @@ const About: NextPage = () => {
           />
         </div>
       </div>
-      <div className="relative flex-grow px-6 pb-5 bg-cover bg-bottom">
+      <div className="relative flex-grow px-6 pb-5 bg-cover bg-bottom md:grow-0">
         <div className="grid gap-6 my-6 md:grid-cols-2 relative z-10">
           {services.map((service) => (
             <div

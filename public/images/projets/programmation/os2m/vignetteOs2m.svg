@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="698.26483"
+   height="698.74799"
+   viewBox="0 0 698.26483 698.748"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="vignetteOs2m.svg"
+   inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\os2m\vignetteOs2m.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.72079131"
+     inkscape:cx="303.83274"
+     inkscape:cy="280.94123"
+     inkscape:window-width="2400"
+     inkscape:window-height="1261"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31"
+     showguides="false">
+    <sodipodi:guide
+       position="910.11086,841.64651"
+       orientation="0,-1"
+       id="guide1356" />
+  </sodipodi:namedview>
+  <defs
+     id="defs17">
+    <radialGradient
+       id="radial-gradient"
+       cx="6.0419998"
+       cy="-0.229"
+       r="6.6409998"
+       gradientTransform="matrix(1.039,0,0,1,-0.019,0)"
+       gradientUnits="objectBoundingBox">
+      <stop
+         offset="0"
+         stop-color="#005fae"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#002e5c"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-2"
+       cx="156.27551"
+       cy="68.521866"
+       r="140.84685"
+       gradientTransform="scale(0.9544652,1.0477071)"
+       xlink:href="#radial-gradient"
+       fx="156.27551"
+       fy="68.521866"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-3"
+       cx="153.5645"
+       cy="66.801933"
+       r="137.33278"
+       gradientTransform="scale(0.93063023,1.0745406)"
+       xlink:href="#radial-gradient"
+       fx="153.5645"
+       fy="66.801933"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-4"
+       cx="141.51157"
+       cy="69.614937"
+       r="143.12273"
+       gradientTransform="scale(0.96982184,1.0311172)"
+       xlink:href="#radial-gradient"
+       fx="141.51157"
+       fy="69.614937"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-5"
+       cx="182.04942"
+       cy="52.895012"
+       r="106.49264"
+       gradientTransform="scale(0.72161058,1.385789)"
+       xlink:href="#radial-gradient"
+       fx="182.04942"
+       fy="52.895012"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-6"
+       cx="94.06498"
+       cy="41.770405"
+       r="51.977024"
+       gradientTransform="scale(1.1154215,0.8965221)"
+       xlink:href="#radial-gradient"
+       fx="94.06498"
+       fy="41.770405"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linear-gradient"
+       x1="1.5974038"
+       y1="12.040808"
+       x2="27.969637"
+       y2="-7.9568791"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.73225691,1.3656409)">
+      <stop
+         offset="0"
+         stop-color="#f07500"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#7d4200"
+         id="stop14" />
+    </linearGradient>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask997">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.888279;stroke-linecap:round"
+         id="rect999"
+         width="698.26477"
+         height="388.40347"
+         x="102.68148"
+         y="507.04196" />
+    </mask>
+  </defs>
+  <rect
+     style="fill:#d4d0c8;fill-opacity:1;stroke:none;stroke-width:0.816946;stroke-linecap:round"
+     id="rect891-9"
+     width="522.31128"
+     height="439.20004"
+     x="-698.50641"
+     y="259.30634"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.59787;stroke-linecap:round"
+     id="rect891-9-8"
+     width="698.26477"
+     height="175.95346"
+     x="0.24156189"
+     y="0.24163818" />
+  <image
+     width="731.60583"
+     height="522.31097"
+     preserveAspectRatio="none"
+     xlink:href="Rhino_hwk11ThOHl.png"
+     id="image1241"
+     x="-33.099487"
+     y="176.19513" />
+  <image
+     width="345.33334"
+     height="134.66667"
+     preserveAspectRatio="none"
+     xlink:href="logo.png"
+     id="image1253"
+     x="176.70728"
+     y="20.885033" />
+</svg>

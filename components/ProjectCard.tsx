@@ -62,7 +62,7 @@ const ProjectCard: FunctionComponent<{
         <div>
           {
             <div className="absolute top-0 left-0 z-10 w-full grid p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 rounded-lg">
-              <div className="overflow-hidden">
+              <div className="overflow-hidden aspect-square">
                 {/* <img src={image_path} alt={name} /> */}
                 <Slider
                   slides={project.slides}
@@ -70,7 +70,7 @@ const ProjectCard: FunctionComponent<{
                 />
               </div>
 
-              <div className="">
+              <div className="grow">
                 <h2 className="mb-3 text-xl font-medium md:text-2xl">
                   {project.name}
                 </h2>

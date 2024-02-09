@@ -1,3 +1,4 @@
+import { MdExposurePlus1 } from "react-icons/md";
 import { IProject, Service } from "./types";
 
 export const services: Service[] = [
@@ -7,35 +8,35 @@ export const services: Service[] = [
     about:
       "Je suis programmeur et <b>automaticien</b>, spécialiste de <b>Grasshopper</b>, à l'aide de quoi je peux programmer des objets paramétriques, des parcours d'outils ou des workflow sur mesure à vos besoins",
   },
-      {
-    icon: "/images/icons/ornament.svg",
-    title: "Ebénisterie",
-    about:
-      "Je suis <b>ébéniste</b> et j'ai adapté les techniques d'<b>ornementation</b> traditionelles de ce métier aux machines <b>numériques</b> : marqueterie, incrustations, gravures...",
-  },
      {
     icon: "/images/icons/modeling.svg",
     title: "Modélisation",
     about: "J'utilise notamment <b>Rhinoceros 3D</b> dans ma pratique et je suis aussi <b>formateur</b> sur ce logiciel, en distanciel aussi bien que sur place, dans votre établissement.",
   },
-  {
-    icon: "/images/icons/leather.svg",
-    title: "Travail du Cuir",
-    about:
-      "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
-  },
+//   {
+//     icon: "/images/icons/leather.svg",
+//     title: "Travail du Cuir",
+//     about:
+//       "J'ai mis au point une interpretation des techniques de maroquinerie traditionnelles à l'aide de la découpeuse laser",
+//   },
       {
     icon: "/images/icons/laser.svg",
     title: "Découpe numérique",
     about:
       "L'atelier est équipé d'une <b>découpeuse laser</b> et d'une <b>fraiseuse numérique</b> avec lesquelles je réalise les pièces elles mêmes ou bien des gabarits pour régler les machines traditionnelles.",
   },
- {
-    icon: "/images/icons/sawBlade.svg",
-    title: "Travail du Bois",
+        {
+    icon: "/images/icons/ornament.svg",
+    title: "Ebénisterie",
     about:
-      "L'atelier est équipé de machines à bois traditionnelles dimensionnées pour du <b>mobilier</b> et <b>petits objets</b>"
+      "Je suis <b>ébéniste</b> et j'ai adapté les techniques d'<b>ornementation</b> traditionelles de ce métier aux machines <b>numériques</b> : marqueterie, incrustations, gravures...",
   },
+//  {
+//     icon: "/images/icons/sawBlade.svg",
+//     title: "Travail du Bois",
+//     about:
+//       "L'atelier est équipé de machines à bois traditionnelles dimensionnées pour du <b>mobilier</b> et <b>petits objets</b>"
+//   },
 
 
 
@@ -100,8 +101,40 @@ export const projects: IProject[] = [
                     height: 650
                 }
             ]
-  },
-  ,
+  },{
+      name: "Automatisation pour Dupré",
+    description:
+      "<span>Automatisation pour le workflow de l'entreprise de menuiserie Os2m",
+    image_path: "/images/projets/programmation/dupre/vignetteDupre.png",
+    whiteBg: true,
+    category: "Programmation",
+    key_techs: ["Prototypage", "Découpe laser"],
+                slides: [                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/dupre/vignetteDupre.png",
+                    slideLegend: "",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }]
+            },
+            {
+      name: "Génération de patrons 2D",
+    description:
+      "<span>Automatisation de la génération de patrons pour l'entreprise de vêtements orthopédiques <a class=\"underline hover:no-underline\" href=\"https://www.orthomixt3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Orthomixt3d</a>.",
+    image_path: "/images/projets/programmation/os2m/vignetteOs2m.png",
+    whiteBg: true,
+    category: "Programmation",
+    key_techs: ["Prototypage", "Découpe laser"],
+                slides: [                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/os2m/vignetteOs2m.png",
+                    slideLegend: "<span style=\"font-size:1.3vw;\">L'entreprise Os2m située à Cholet souhaitait automatiser la génération des patrons de découpe de ses vêtements.<ul style=\"list-style: circle; padding: 2px; font-size:1vw;\"><li>Des mesures sont demandées aux utilisateurs via le site internet <a class=\"underline hover:no-underline\" href=\"https://www.orthomixt3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Orthomixt3d</a></li><li>Elles sont ensuite compilées dans un fichier excel au sein duquel des macros calculent les paramètres de génération du patron sur mesures</li><li>Ces données sont ensuite lues par le programme grasshopper qui calcule un patron à taille réelle, cotté, annoté et imprimable</li><li>le patron est modifiable directement dans rhinoceros 3D puis le programme grasshopper exporte les fichiers d'usinage calibrés pour les découpeuses laser de l'entreprise.</li></ul></span>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }]
+            },
     { 
     name: "Tables basses RIVA",
     description:
@@ -204,7 +237,7 @@ export const projects: IProject[] = [
                     height: 2560
                 }
             ]
-  },,
+  },
   { 
     name: "Trophées pour le festival des 3 continents",
     description:
@@ -495,6 +528,65 @@ export const projects: IProject[] = [
             ]
   },
   { 
+    name: "Porteplume Kopis",
+    description:
+      "Collection Styx",
+    image_path: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
+    whiteBg: false,
+    category: "Ebénisterie",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
+                    slideLegend: "Plumier / Porte carte Kopis Structure en valchromat noir et gris, inclusions de laiton.",
+                    alt: "porteplume en valchromat noir",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/bois/coffrets/Kopis20parArcadie.jpg",
+                    slideLegend: "Modèle Kopis : Longueur 393mm, Largeur 70mm, Épaisseur 16mm",
+                    alt: "porteplume en valchromat noir",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/bois/coffrets/Kopis30parArcadie.jpg",
+                    slideLegend: "Le porteplume comporte des logements pour cartes de visite.",
+                    alt: "porteplume en valchromat noir",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/bois/coffrets/Kopis40parArcadie.jpg",
+                    slideLegend: "",
+                    alt: "porteplume en valchromat noir",
+                    width: 1620,
+                    height: 1620
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/bois/coffrets/Kopis50parArcadie.jpg",
+                    slideLegend: "",
+                    alt: "porteplume en valchromat noir",
+                    width: 1620,
+                    height: 1620
+                },
+                                {
+                    type: "video",
+                    slidePath: "/videos/laserValchro.mp4",
+                    slideLegend: "decoupe laser sur valchro",
+                    alt: "porteplume en valchromat noir",
+                    width: 650,
+                    height: 650
+                }
+            ]
+  },
+  { 
     name: "Boite à bijoux Samson",
     description:
       "Commande particulière",
@@ -585,72 +677,13 @@ export const projects: IProject[] = [
                 }
             ]
   },
-    { 
-    name: "Porteplume Kopis",
-    description:
-      "Collection Styx",
-    image_path: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
-    whiteBg: false,
-    category: "Ebénisterie",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
-                slides: [
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
-                    slideLegend: "Plumier / Porte carte Kopis Structure en valchromat noir et gris, inclusions de laiton.",
-                    alt: "porteplume en valchromat noir",
-                    width: 1620,
-                    height: 1620
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/bois/coffrets/Kopis20parArcadie.jpg",
-                    slideLegend: "Modèle Kopis : Longueur 393mm, Largeur 70mm, Épaisseur 16mm",
-                    alt: "porteplume en valchromat noir",
-                    width: 1620,
-                    height: 1620
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/bois/coffrets/Kopis30parArcadie.jpg",
-                    slideLegend: "Le porteplume comporte des logements pour cartes de visite.",
-                    alt: "porteplume en valchromat noir",
-                    width: 1620,
-                    height: 1620
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/bois/coffrets/Kopis40parArcadie.jpg",
-                    slideLegend: "",
-                    alt: "porteplume en valchromat noir",
-                    width: 1620,
-                    height: 1620
-                },
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/bois/coffrets/Kopis50parArcadie.jpg",
-                    slideLegend: "",
-                    alt: "porteplume en valchromat noir",
-                    width: 1620,
-                    height: 1620
-                },
-                                {
-                    type: "video",
-                    slidePath: "/videos/laserValchro.mp4",
-                    slideLegend: "decoupe laser sur valchro",
-                    alt: "porteplume en valchromat noir",
-                    width: 650,
-                    height: 650
-                }
-            ]
-  },
   { 
     name: "Etuis de liseuse Kobo",
     description:
       "Commande particulière",
     image_path: "/images/projets/cuir/pochetteCuirLiseuseParArcadie23.jpg",
     whiteBg: false,
-    category: "Travail du Cuir",
+    category: "Découpe numérique",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
                 slides: [
                 {

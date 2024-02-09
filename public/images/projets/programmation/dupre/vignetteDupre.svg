@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="698.26483"
+   height="698.74799"
+   viewBox="0 0 698.26483 698.748"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="vignetteDupre.svg"
+   inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\dupre\vignetteDupre.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.72079131"
+     inkscape:cx="243.4824"
+     inkscape:cy="301.7517"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <defs
+     id="defs17">
+    <radialGradient
+       id="radial-gradient"
+       cx="6.0419998"
+       cy="-0.229"
+       r="6.6409998"
+       gradientTransform="matrix(1.039,0,0,1,-0.019,0)"
+       gradientUnits="objectBoundingBox">
+      <stop
+         offset="0"
+         stop-color="#005fae"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#002e5c"
+         id="stop4" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-2"
+       cx="156.27551"
+       cy="68.521866"
+       r="140.84685"
+       gradientTransform="scale(0.9544652,1.0477071)"
+       xlink:href="#radial-gradient"
+       fx="156.27551"
+       fy="68.521866"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-3"
+       cx="153.5645"
+       cy="66.801933"
+       r="137.33278"
+       gradientTransform="scale(0.93063023,1.0745406)"
+       xlink:href="#radial-gradient"
+       fx="153.5645"
+       fy="66.801933"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-4"
+       cx="141.51157"
+       cy="69.614937"
+       r="143.12273"
+       gradientTransform="scale(0.96982184,1.0311172)"
+       xlink:href="#radial-gradient"
+       fx="141.51157"
+       fy="69.614937"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-5"
+       cx="182.04942"
+       cy="52.895012"
+       r="106.49264"
+       gradientTransform="scale(0.72161058,1.385789)"
+       xlink:href="#radial-gradient"
+       fx="182.04942"
+       fy="52.895012"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radial-gradient-6"
+       cx="94.06498"
+       cy="41.770405"
+       r="51.977024"
+       gradientTransform="scale(1.1154215,0.8965221)"
+       xlink:href="#radial-gradient"
+       fx="94.06498"
+       fy="41.770405"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linear-gradient"
+       x1="1.5974038"
+       y1="12.040808"
+       x2="27.969637"
+       y2="-7.9568791"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.73225691,1.3656409)">
+      <stop
+         offset="0"
+         stop-color="#f07500"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#7d4200"
+         id="stop14" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radial-gradient"
+       id="radialGradient995"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.98146305,1.0188871)"
+       cx="158.43571"
+       cy="70.451904"
+       r="144.80157"
+       fx="158.43571"
+       fy="70.451904" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask997">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.888279;stroke-linecap:round"
+         id="rect999"
+         width="698.26477"
+         height="388.40347"
+         x="102.68148"
+         y="507.04196" />
+    </mask>
+  </defs>
+  <rect
+     style="fill:#d4d0c8;fill-opacity:1;stroke:none;stroke-width:0.842467;stroke-linecap:round"
+     id="rect891-9"
+     width="698.26477"
+     height="349.37399"
+     x="0"
+     y="349.37396" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.842467;stroke-linecap:round"
+     id="rect891-9-8"
+     width="698.26477"
+     height="349.37399"
+     x="6.1035156e-05"
+     y="0" />
+  <image
+     width="716"
+     height="719"
+     preserveAspectRatio="none"
+     xlink:href="..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C.%5C..%5CPictures%5C2024-02%5CRhino_40FPClHJMD.png"
+     id="image865"
+     x="84.985413"
+     y="176.48462"
+     mask="url(#mask997)"
+     transform="matrix(0.89839512,0,0,0.89839512,-56.834719,-105.75101)" />
+  <g
+     id="Groupe_928"
+     data-name="Groupe 928"
+     transform="matrix(2.7073564,0,0,2.7073564,109.19298,-11.047128)">
+    <g
+       id="Groupe_925"
+       data-name="Groupe 925"
+       transform="translate(26.204,85.274)">
+      <path
+         id="Tracé_1207"
+         data-name="Tracé 1207"
+         d="m 26.2,76.87 h 8.223 c 7.459,0 13.177,3.269 13.177,11.43 0,6.6 -4.656,10.786 -11.168,10.786 H 26.2 Z m 8.074,15.56 h 0.5 c 2.682,0 4.746,-1.237 4.746,-4.155 0,-3.123 -1.8,-4.451 -4.746,-4.451 h -0.5 z"
+         transform="translate(-26.204,-69.944)"
+         fill="url(#radial-gradient)"
+         style="fill:url(#radialGradient995)" />
+      <path
+         id="Tracé_1208"
+         data-name="Tracé 1208"
+         d="m 69.1,76.87 v 13.144 c 0,6.482 -4.067,9.43 -10.285,9.43 -6.218,0 -10.28,-2.944 -10.28,-9.43 V 76.87 h 8.075 v 12.379 c 0,1.738 0.058,3.271 2.21,3.271 2.152,0 2.21,-1.533 2.21,-3.271 V 76.87 Z"
+         transform="translate(-19.915,-69.944)"
+         fill="url(#radial-gradient-2)"
+         style="fill:url(#radial-gradient-2)" />
+      <path
+         id="Tracé_1209"
+         data-name="Tracé 1209"
+         d="m 70.82,76.87 h 10.226 c 5.188,0 9.019,2.652 9.019,8.164 0,4.538 -2.83,7.367 -7.337,7.367 H 78.6 v 6.69 h -7.78 z m 7.78,9.93 h 0.8 c 1.415,0 2.946,-0.237 2.946,-2.034 0,-1.739 -1.649,-1.826 -2.976,-1.826 H 78.6 Z"
+         transform="translate(-13.639,-69.944)"
+         fill="url(#radial-gradient-3)"
+         style="fill:url(#radial-gradient-3)" />
+      <path
+         id="Tracé_1210"
+         data-name="Tracé 1210"
+         d="m 91.008,76.87 h 9.757 c 5.01,0 9.255,2.122 9.255,7.722 0,3.358 -1.3,4.775 -4.3,5.778 v 0.176 a 5.632,5.632 0 0 1 1.355,1.325 l 4.834,7.221 h -9.314 l -3.54,-7.132 h -0.147 v 7.131 h -7.9 z m 7.9,9.844 h 0.56 c 1.325,0 2.652,-0.208 2.652,-1.858 0,-1.708 -1.209,-1.913 -2.593,-1.913 h -0.619 z"
+         transform="translate(-7.954,-69.944)"
+         fill="url(#radial-gradient-4)"
+         style="fill:url(#radial-gradient-4)" />
+      <path
+         id="Tracé_1211"
+         data-name="Tracé 1211"
+         d="m 111.774,78.392 h 14.942 v 6.072 h -6.806 v 2.12 h 6.217 v 5.778 h -6.217 v 2.18 h 7.042 v 6.071 h -15.178 z m 10.807,-6.9 -5.112,5.373 h -1.129 l 3.008,-5.4 z"
+         transform="translate(-2.106,-71.466)"
+         fill="url(#radial-gradient-5)"
+         style="fill:url(#radial-gradient-5)" />
+    </g>
+    <g
+       id="Groupe_927"
+       data-name="Groupe 927"
+       transform="translate(53.61,22.436)">
+      <g
+         id="Groupe_926"
+         data-name="Groupe 926">
+        <rect
+           id="Rectangle_398"
+           data-name="Rectangle 398"
+           width="9.4160004"
+           height="9.1499996"
+           transform="translate(28.654,28.841)"
+           fill="#005fae"
+           x="0"
+           y="0" />
+        <path
+           id="Tracé_1212"
+           data-name="Tracé 1212"
+           d="m 116.638,32 c -4.437,-7.209 -12.3,-9.567 -20.062,-9.567 l 0.009,17.444 V 71.5 H 64.964 V 39.88 H 85.633 V 23.566 c -14.809,3.349 -29.875,13.6 -36.1,27.988 -2.912,6.239 -2.773,15.391 1.94,20.658 8.736,9.984 24.542,8.875 35.773,4.716 0.415,0 0.693,-0.419 0.971,-0.419 A 55.779,55.779 0 0 0 113.866,56.96 c 4.575,-6.792 7.764,-17.191 2.772,-24.96 z"
+           transform="translate(-47.588,-22.436)"
+           fill="url(#radial-gradient-6)"
+           style="fill:url(#radial-gradient-6)" />
+      </g>
+      <rect
+         id="Rectangle_399"
+         data-name="Rectangle 399"
+         width="11.035"
+         height="20.58"
+         transform="translate(38.071,17.456)"
+         fill="url(#linear-gradient)"
+         style="fill:url(#linear-gradient)"
+         x="0"
+         y="0" />
+    </g>
+  </g>
+</svg>

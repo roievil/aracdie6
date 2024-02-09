@@ -44,7 +44,7 @@ const Slider = ({ slides, onSlideLegendChange }) => {
           return (
             <div
               key={index}
-              className={`absolute top-0 left-0 h-full w-full transition-transform duration-1000 ${slideClass}`}
+              className={`absolute top-0 left-0  transition-transform duration-1000 ${slideClass}`}
               style={{ transform: `translateX(${slidePosition}%)` }}
             >
               {isPictureSlide ? (
