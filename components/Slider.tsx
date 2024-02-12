@@ -32,7 +32,13 @@ const Slider = ({ slides, onSlideLegendChange }) => {
   }
 
   return (
-    <div id="gallery" className="w-full h-30vh" style={{ height: "70vh" }}>
+    <div
+      id="gallery"
+      className=" "
+      style={{
+        height: "82vh",
+      }}
+    >
       <div className="relative flex justify-center items-center h-full">
         {slides.map((slide, index) => {
           const isPictureSlide = slide.type === "picture";
@@ -69,8 +75,9 @@ const Slider = ({ slides, onSlideLegendChange }) => {
                   <ReactPlayer
                     url={slide.slidePath}
                     type="video/mp4"
-                    width={slide.width}
-                    height={slide.height}
+                    style={{ maxWidth: "100%" }} // Add this style
+                    width="100%"
+                    height="100%"
                     controls
                     playing={current === index}
                   />

@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import { projects as projectsData } from "../data";
 import { Category, IContextState } from "../types";
 import { GlobalContext } from "../context/GlobalContext";
+import ProjectsNavbar from "../components/ProjectsNavbar";
 
 const Projects = () => {
   const { currentCategory, projects, setProjects, currentProject } = useContext(
@@ -42,8 +43,12 @@ const Projects = () => {
     return (
       <div
         className="px-5 py-2 overflow-y-scroll border-gray-400 border-t"
-        style={{ height: "80vh" }}
+        style={{ height: "88vh" }}
       >
+        {/* hide the ProjectsNavbar on large screens*/}
+        <div className="flex md:hidden">
+          <ProjectsNavbar />
+        </div>
         <div className="relative">
           <ProjectCard project={currentProject} />
         </div>
@@ -53,8 +58,12 @@ const Projects = () => {
     return (
       <div
         className="px-5 py-2 overflow-y-scroll border-gray-400 border-t"
-        style={{ height: "80vh" }}
+        style={{ height: "88vh" }}
       >
+        {/* hide the ProjectsNavbar on large screens*/}
+        <div className="flex md:hidden">
+          <ProjectsNavbar />
+        </div>
         <div className="relative grid grid-cols-12 gap-4 my-3">
           {projects.map((project) => (
             <div

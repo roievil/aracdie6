@@ -97,8 +97,8 @@ export const projects: IProject[] = [
                     slidePath: "/videos/impression3dCeramique.mp4",
                     slideLegend: "Impression de la première pièce.",
                     alt: "Impression 3D céramique",
-                    width: 650,
-                    height: 650
+                    width: 800,
+                    height: 800
                 }
             ]
   },{
@@ -308,8 +308,8 @@ export const projects: IProject[] = [
                     slidePath: "/images/projets/bois/trophees/trophee80ParArcadie.mp4",
                     slideLegend: "La mongoflière d'argent sur la scelette !",
                     alt: "trophee festival des 3 continents",
-                    width: 1620,
-                    height: 1620
+                    width: 800,
+                    height: 800
                 }
             ]
   },
@@ -498,8 +498,8 @@ export const projects: IProject[] = [
                     slidePath: "/videos/laserMousse.mp4",
                     slideLegend: "decoupe laser sur mousse EVA",
                     alt: "decoupe laser sur mousse EVA",
-                    width: 450,
-                    height: 450
+                    width: 800,
+                    height: 800
                 },
                 {
                     type: "picture",
@@ -581,8 +581,8 @@ export const projects: IProject[] = [
                     slidePath: "/videos/laserValchro.mp4",
                     slideLegend: "decoupe laser sur valchro",
                     alt: "porteplume en valchromat noir",
-                    width: 650,
-                    height: 650
+                    width: 800,
+                    height: 800
                 }
             ]
   },

@@ -27,7 +27,7 @@ export const NavItem: FunctionComponent<{ value: Category | "All" }> = ({
 
 const ProjectsNavbar: FunctionComponent = (props) => {
   return (
-    <div className="flex px-4 pt-2 space-x-3 text-sm md:text-base overflow-x-auto list-none ">
+    <div className="flex px-4 pt-2 space-x-3 text-sm md:text-base overflow-x-auto list-none">
       <NavItem value="All" {...props} />
       <NavItem value="Programmation" {...props} />
       <NavItem value="Modélisation" {...props} />

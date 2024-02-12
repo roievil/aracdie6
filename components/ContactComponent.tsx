@@ -14,7 +14,7 @@ const Contact = (): JSX.Element => {
       <div
         className="relative overflow-y-scroll xl:overflow-hidden bg-cover bg-center"
         style={{
-          height: "80vh",
+          height: "88vh",
           backgroundImage: "url('./images/contact/MacluForet.jpg')",
         }}
       >

@@ -8,7 +8,7 @@ const APropos: NextPage = () => {
     <div
       className="relative bg-cover bg-center overflow-y-scroll xl:overflow-hidden"
       style={{
-        height: "80vh",
+        height: "88vh",
         backgroundImage: "url('./images/aPropos/Maclu.jpg')",
       }}
     >

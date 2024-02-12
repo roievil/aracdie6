@@ -52,9 +52,12 @@ const Navbar = () => {
           {activeNavBarTab}
         </span>
       </div>
-      {/* Conditionally render ProjectsNavbar */}
-      {activeNavBarTab === "Projets" && <ProjectsNavbar />}
-
+      {/* show the ProjectsNavbar on large screens if the project tab has been clicked*/}
+      {activeNavBarTab === "Projets" && (
+        <div className="hidden md:flex">
+          <ProjectsNavbar />
+        </div>
+      )}
       <div className="text-base md:text-xl items-center ml-auto ">
         <NavItem name="Home" route="/" />
         <NavItem name="Projets" route="/projects" />
