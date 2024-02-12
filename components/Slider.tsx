@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
-import { MdArrowLeft, MdArrowRight } from "react-icons/md";
 
 import Link from "next/link";
 
@@ -32,93 +31,83 @@ const Slider = ({ slides, onSlideLegendChange }) => {
   }
 
   return (
-    <div
-      id="gallery"
-      className=" "
-      style={{
-        height: "82vh",
-      }}
-    >
-      <div className="relative flex justify-center items-center h-full">
-        {slides.map((slide, index) => {
-          const isPictureSlide = slide.type === "picture";
-          const slideClass =
-            current === index ? "slide-current" : "slide-hidden";
-          const slidePosition =
-            current === index ? 0 : (current - index) * -100;
+    <div className="relative aspect-square flex justify-center items-center md:h-[82vh] overflow-hidden">
+      {slides.map((slide, index) => {
+        const isPictureSlide = slide.type === "picture";
+        const slideClass = current === index ? "slide-current" : "slide-hidden";
+        const slidePosition = current === index ? 0 : (current - index) * -100;
 
-          return (
-            <div
-              key={index}
-              className={`absolute top-0 left-0  transition-transform duration-1000 ${slideClass}`}
-              style={{ transform: `translateX(${slidePosition}%)` }}
-            >
-              {isPictureSlide ? (
-                <Link
-                  href={slide.slidePath}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src={slide.slidePath}
-                    alt={slide.alt}
-                    className="object-cover w-full h-full"
-                    width={slide.width}
-                    height={slide.height}
-                    placeholder="blur"
-                    blurDataURL="/images/loader.gif"
-                  />
-                </Link>
-              ) : (
-                <div className="relative flex justify-center items-center">
-                  {/* Adjust the values here */}
-                  <ReactPlayer
-                    url={slide.slidePath}
-                    type="video/mp4"
-                    style={{ maxWidth: "100%" }} // Add this style
-                    width="100%"
-                    height="100%"
-                    controls
-                    playing={current === index}
-                  />
-                </div>
-              )}
-            </div>
-          );
-        })}
+        return (
+          <div
+            key={index}
+            className={`absolute top-0 left-0  transition-transform duration-1000 ${slideClass}`}
+            style={{ transform: `translateX(${slidePosition}%)` }}
+          >
+            {isPictureSlide ? (
+              <Link
+                href={slide.slidePath}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={slide.slidePath}
+                  alt={slide.alt}
+                  className="object-cover w-full h-full"
+                  width={slide.width}
+                  height={slide.height}
+                  placeholder="blur"
+                  blurDataURL="/images/loader.gif"
+                />
+              </Link>
+            ) : (
+              <div className="relative flex justify-center items-center">
+                {/* Adjust the values here */}
+                <ReactPlayer
+                  url={slide.slidePath}
+                  type="video/mp4"
+                  style={{ maxWidth: "100%" }} // Add this style
+                  width="100%"
+                  height="100%"
+                  controls
+                  playing={current === index}
+                />
+              </div>
+            )}
+          </div>
+        );
+      })}
 
-        {/* Bullet overlay */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
-          {slides.map((slide, index) => (
-            <button
-              key={index}
-              onClick={() => handleBulletClick(index)}
-              className={`w-2 h-2 rounded-full ${
-                current === index
-                  ? "bg-white border-2 border-black" // Active bullet color
-                  : "bg-black border-2 border-white" // Inactive bullet color
-              }`}
-            ></button>
-          ))}
-        </div>
+      {/* Bullet overlay */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        {slides.map((slide, index) => (
+          <button
+            key={index}
+            onClick={() => handleBulletClick(index)}
+            className={`w-2 h-2 rounded-full ${
+              current === index
+                ? "bg-white border-2 border-black" // Active bullet color
+                : "bg-black border-2 border-white" // Inactive bullet color
+            }`}
+          ></button>
+        ))}
+      </div>
 
-        {/* Arrows */}
-        <div className="absolute top-1/2 left-5 transform -translate-y-1/2">
-          <img
-            src="/images/icons/Antu_arrow-left.svg"
-            alt="Left Arrow"
-            onClick={prevSlide}
-            className="cursor-pointer w-12 h-12"
-          />
-        </div>
-        <div className="absolute top-1/2 right-5 transform -translate-y-1/2">
-          <img
-            src="/images/icons/Antu_arrow-right.svg"
-            alt="Right Arrow"
-            onClick={nextSlide}
-            className="cursor-pointer w-12 h-12"
-          />
-        </div>
+      {/* Arrows */}
+      <div className="absolute top-1/2 left-5 transform -translate-y-1/2">
+        <img
+          src="/images/icons/Antu_arrow-left.svg"
+          alt="Left Arrow"
+          onClick={prevSlide}
+          className="cursor-pointer w-12 h-12"
+        />
+      </div>
+      <div className="absolute top-1/2 right-5 transform -translate-y-1/2">
+        <img
+          src="/images/icons/Antu_arrow-right.svg"
+          alt="Right Arrow"
+          onClick={nextSlide}
+          className="cursor-pointer w-12 h-12"
+        />
       </div>
     </div>
   );
