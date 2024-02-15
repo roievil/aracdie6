@@ -44,15 +44,40 @@ export const services: Service[] = [
 ];
 
 export const projects: IProject[] = [
+    {
+      name: "Génération de parcours d'outils",
+    description:
+      "Automatisation de la chaîne de production de semelles orthopédiques de ErgoRecherche",
+    image_path: "/images/projets/programmation/ergoRecherche/vignetteErgoRecherche.png",
+    whiteBg: false,
+    category: "Programmation",
+    key_techs: ["Prototypage", "Découpe laser"],
+                slides: [                                {
+                    type: "video",
+                    slidePath: "/videos/toolpathGeneration.mp4",
+                    slideLegend: "A VENIR",
+                    alt: "porteplume en valchromat noir",
+                    width: 800,
+                    height: 800
+                }]
+            },
     { 
     name: "Impression 3D céramique",
     description:
       "<span>Programmation d'une cinématique non planaire pour le designer et concepteur de la machine <a class=\"underline hover:no-underline\" href=\"https://www.yoannbordespages.com\" target=\"_blank\" rel=\"noopener noreferrer\">Yoann Bordès Pages</a>, à Nantes.</span>",
-    image_path: "/images/projets/programmation/impression3dCeramique/impression3dCeramique.jpg",
-    whiteBg: false,
+    image_path: "/images/projets/programmation/impression3dCeramique/vignetteImpression3DCeramique.png",
+    whiteBg: true,
     category: "Programmation",
     key_techs: ["Prototypage", "Découpe laser"],
                 slides: [
+                {
+                    type: "video",
+                    slidePath: "/videos/impression3dCeramique.mp4",
+                    slideLegend: "Vue détaillée du programme grasshopper qui permet de slicer une géométrie puis de générer le Gcode spécifique à l'imprimante3D céramique du designer Yoann Bordès Pages",
+                    alt: "Impression 3D céramique",
+                    width: 800,
+                    height: 800
+                },
                 {
                     type: "picture",
                     slidePath: "/images/projets/programmation/impression3dCeramique/impression3dCeramique20.jpg",
@@ -91,14 +116,6 @@ export const projects: IProject[] = [
                     alt: "Impression 3D céramique",
                     width: 1620,
                     height: 1620
-                },
-                {
-                    type: "video",
-                    slidePath: "/videos/impression3dCeramique.mp4",
-                    slideLegend: "Impression de la première pièce.",
-                    alt: "Impression 3D céramique",
-                    width: 800,
-                    height: 800
                 }
             ]
   },{
@@ -129,7 +146,7 @@ export const projects: IProject[] = [
                 slides: [                {
                     type: "picture",
                     slidePath: "/images/projets/programmation/os2m/vignetteOs2m.png",
-                    slideLegend: "<span style=\"font-size:1.3vw;\">L'entreprise Os2m située à Cholet souhaitait automatiser la génération des patrons de découpe de ses vêtements.<ul style=\"list-style: circle; padding: 2px; font-size:1vw;\"><li>Des mesures sont demandées aux utilisateurs via le site internet <a class=\"underline hover:no-underline\" href=\"https://www.orthomixt3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Orthomixt3d</a></li><li>Elles sont ensuite compilées dans un fichier excel au sein duquel des macros calculent les paramètres de génération du patron sur mesures</li><li>Ces données sont ensuite lues par le programme grasshopper qui calcule un patron à taille réelle, cotté, annoté et imprimable</li><li>le patron est modifiable directement dans rhinoceros 3D puis le programme grasshopper exporte les fichiers d'usinage calibrés pour les découpeuses laser de l'entreprise.</li></ul></span>",
+                    slideLegend: "<span style=\"font-size:1.3vw;\">L'entreprise Os2m située à Cholet souhaitait automatiser la génération des patrons de découpe de ses vêtements.<ul style=\"list-style: circle; padding: 2px; margin-left: 2%; font-size:1vw;\"><li>Des mesures sont demandées aux utilisateurs via le site internet <a class=\"underline hover:no-underline\" href=\"https://www.orthomixt3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Orthomixt3d</a></li><li>Elles sont ensuite compilées dans un fichier excel au sein duquel des macros calculent les paramètres de génération du patron sur mesures</li><li>Ces données sont ensuite lues par le programme grasshopper qui calcule un patron à taille réelle, cotté, annoté et imprimable</li><li>le patron est modifiable directement dans rhinoceros 3D puis le programme grasshopper exporte les fichiers d'usinage calibrés pour les découpeuses laser de l'entreprise.</li></ul></span>",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
@@ -146,8 +163,8 @@ export const projects: IProject[] = [
                 slides: [
                 {
                     type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva10.jpeg",
-                    slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva10a.png",
+                    slideLegend: "Croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
@@ -392,7 +409,7 @@ export const projects: IProject[] = [
     name: "Coffret à Gemmes Griffon",
     description:
       "<span>Conçu pour la <a class=\"underline hover:no-underline\" href=\"https://www.bijouteriegriffon.com\" target=\"_blank\" rel=\"noopener noreferrer\">bijouterie / joaillerie Griffon</a> à Nantes.</span>",
-    image_path: "/images/projets/bois/coffrets/coffretGriffon10ParArcadie.jpg",
+    image_path: "/images/projets/bois/coffrets/coffretGriffon30ParArcadie.jpg",
     whiteBg: false,
     category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
@@ -590,7 +607,7 @@ export const projects: IProject[] = [
     name: "Boite à bijoux Samson",
     description:
       "Commande particulière",
-    image_path: "/images/projets/bois/coffrets/samson10parArcadie.jpg",
+    image_path: "/images/projets/bois/coffrets/samson20parArcadie.jpg",
     whiteBg: false,
     category: "Ebénisterie",
     key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],

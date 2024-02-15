@@ -14,9 +14,8 @@ const ServiceCard: FunctionComponent<{ service: Service }> = ({
     };
   }
 
-  const { setCurrentCategory, setActiveNavBarTab } = useContext(
-    GlobalContext
-  ) as IContextState;
+  const { setCurrentCategory, setActiveNavBarTab, setCurrentProject } =
+    useContext(GlobalContext) as IContextState;
 
   return (
     <Link
@@ -24,6 +23,7 @@ const ServiceCard: FunctionComponent<{ service: Service }> = ({
       className="flex items-center p-2 space-x-4"
       onClick={() => {
         setCurrentCategory(title);
+        setCurrentProject(null);
         setActiveNavBarTab("Projets");
       }}
     >

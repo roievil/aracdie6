@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="698.26483"
-   height="698.74799"
-   viewBox="0 0 698.26483 698.748"
+   width="1396.53"
+   height="1397.4963"
+   viewBox="0 0 1396.53 1397.4964"
    version="1.1"
    id="svg31"
    sodipodi:docname="vignetteDupre.svg"
@@ -29,8 +29,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.72079131"
-     inkscape:cx="243.4824"
-     inkscape:cy="301.7517"
+     inkscape:cx="344.75998"
+     inkscape:cy="745.70821"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -146,19 +146,25 @@
     </mask>
   </defs>
   <rect
-     style="fill:#d4d0c8;fill-opacity:1;stroke:none;stroke-width:0.842467;stroke-linecap:round"
+     style="fill:#d4d0c8;fill-opacity:1;stroke:none;stroke-width:1.68493;stroke-linecap:round"
      id="rect891-9"
-     width="698.26477"
-     height="349.37399"
+     width="1396.5299"
+     height="698.74817"
      x="0"
-     y="349.37396" />
+     y="698.74811"
+     inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\dupre\vignetteDupre.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
   <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.842467;stroke-linecap:round"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.68493;stroke-linecap:round"
      id="rect891-9-8"
-     width="698.26477"
-     height="349.37399"
-     x="6.1035156e-05"
-     y="0" />
+     width="1396.5299"
+     height="698.74817"
+     x="0.00012207034"
+     y="0"
+     inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\dupre\vignetteDupre.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
   <image
      width="716"
      height="719"
@@ -168,11 +174,17 @@
      x="84.985413"
      y="176.48462"
      mask="url(#mask997)"
-     transform="matrix(0.89839512,0,0,0.89839512,-56.834719,-105.75101)" />
+     transform="matrix(1.7967907,0,0,1.7967907,-113.66947,-211.50207)"
+     inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\dupre\vignetteDupre.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
   <g
      id="Groupe_928"
      data-name="Groupe 928"
-     transform="matrix(2.7073564,0,0,2.7073564,109.19298,-11.047128)">
+     transform="matrix(5.4147141,0,0,5.4147141,218.38601,-22.094261)"
+     inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\dupre\vignetteDupre.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
     <g
        id="Groupe_925"
        data-name="Groupe 925"
