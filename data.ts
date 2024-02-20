@@ -129,7 +129,7 @@ export const projects: IProject[] = [
                 slides: [                {
                     type: "picture",
                     slidePath: "/images/projets/programmation/dupre/vignetteDupre.png",
-                    slideLegend: "",
+slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située en Anjou souhaitait automatiser son workflow de découpe et d'usinage et notamment se passer d'un logiciel de CAM, variable selon les modèles de ses machines.</p><p style=\"padding:2%\" >Chaque table d'usinage mobilisait le concours d'un technicien pour transcrire les géométries annotées données par le bureau d'étude en instructions machines. Des efforts d'automatisation de la chaîne en amont avaient déjà été réalisés, il manquait cette dernière étape.</p><p style=\"padding:2%\" >Nous avons donc développé une définition grasshopper analysant directement les géométries issues du bureau d'étude et leurs annotations puis calculant des parcours d'outils.</p><p style=\" padding:2%\" > Ces parcours d'outils respectent ou améliorent les stratégies d'usinage déjà en place, pour un temps de calcul inférieur.</p>",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
@@ -146,7 +146,7 @@ export const projects: IProject[] = [
                 slides: [                {
                     type: "picture",
                     slidePath: "/images/projets/programmation/os2m/vignetteOs2m.png",
-                    slideLegend: "<span style=\"font-size:1.3vw;\">L'entreprise Os2m située à Cholet souhaitait automatiser la génération des patrons de découpe de ses vêtements.<ul style=\"list-style: circle; padding: 2px; margin-left: 2%; font-size:1vw;\"><li>Des mesures sont demandées aux utilisateurs via le site internet <a class=\"underline hover:no-underline\" href=\"https://www.orthomixt3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Orthomixt3d</a></li><li>Elles sont ensuite compilées dans un fichier excel au sein duquel des macros calculent les paramètres de génération du patron sur mesures</li><li>Ces données sont ensuite lues par le programme grasshopper qui calcule un patron à taille réelle, cotté, annoté et imprimable</li><li>le patron est modifiable directement dans rhinoceros 3D puis le programme grasshopper exporte les fichiers d'usinage calibrés pour les découpeuses laser de l'entreprise.</li></ul></span>",
+                    slideLegend: "<span >L'entreprise Os2m située à Cholet souhaitait automatiser la génération des patrons de découpe de ses vêtements.<ul style=\"list-style: circle; padding-top: 2%; margin-left: 2%; \"><li style=\" padding:2%\">Via le site internet <a class=\"underline hover:no-underline\" href=\"https://www.orthomixt3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Orthomixt3d</a> les mesures des utilisateurs sont récoltées</li><li style=\" padding:2%\">Elles sont ensuite compilées dans un fichier excel au sein duquel des macros calculent les paramètres de génération du patron sur mesures</li><li style=\" padding:2%\">Ces données sont lues dans le fichier excel par le programme grasshopper qui calcule un patron à taille réelle, cotté, annoté et imprimable</li><li style=\" padding:2%\">le patron est modifiable directement dans rhinoceros 3D, puis le programme grasshopper exporte les fichiers d'usinage calibrés pour les découpeuses laser de l'entreprise.</li></ul></span>",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
@@ -322,7 +322,7 @@ export const projects: IProject[] = [
                 },
                 {
                     type: "video",
-                    slidePath: "/images/projets/bois/trophees/trophee80ParArcadie.mp4",
+                    slidePath: "/videos/trophee.mp4",
                     slideLegend: "La mongoflière d'argent sur la scelette !",
                     alt: "trophee festival des 3 continents",
                     width: 800,

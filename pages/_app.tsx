@@ -7,7 +7,7 @@ import GlobalProvider from "../context/GlobalContext";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="grid p-5  md:p-6 ">
+      <div className="grid md:p-6 ">
         <div className="border  bg-white border-gray-400 flex flex-col col-span-12 overflow-hidden shadow-custom-light rounded-2xl lg:col-span-9">
           <GlobalProvider>
             {/* //!navbar */}

@@ -39,14 +39,14 @@ const Navbar = () => {
   useEffect(() => {
     if (pathname === "/") setActiveNavBarTab("Home");
     else if (pathname === "/projects") {
-      setActiveNavBarTab("Projects");
+      setActiveNavBarTab("Projets");
     } else if (pathname === "/aPropos") setActiveNavBarTab("Arcadie?");
     else if (pathname === "/contact") setActiveNavBarTab("Contact");
     console.log("activeNavBarTab has been changed to ", activeNavBarTab);
   }, []);
 
   return (
-    <div className="flex justify-between items-center px-5 my-3">
+    <div className="flex justify-between items-center px-2 md:px-5 my-3">
       <div>
         <span className="text-xl font-bold border-b-4 md:text-2xl">
           {activeNavBarTab}

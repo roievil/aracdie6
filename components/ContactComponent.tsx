@@ -23,7 +23,7 @@ const Contact = (): JSX.Element => {
           style={{ textIndent: "1em", textShadow: "0px 1px 4px #000" }}
         >
           <div className="flex flex-col md:flex-row  justify-center md:justify-between space-y-4 md:space-y-0 py-8 px-4 md:px-8 z-10">
-            <div className="md:w-1/2 mr-4 text-center md:text-left md:px-5">
+            <div className="md:w-1/2 md:grow mr-4 text-center md:text-left md:px-5">
               <p className="p-3 mb-4 md:text-lg font-medium leading-loose display-inline bg-black bg-opacity-50">
                 Après des études d’Écologie à Paris et Montréal, suivies de dix
                 ans en tant qu’informaticien au service de la recherche
@@ -45,46 +45,57 @@ const Contact = (): JSX.Element => {
                 avec la machine.
               </p>
               <p className="p-3 mb-4 md:text-lg font-medium leading-loose display-inline bg-black bg-opacity-50">
-                À l’école Boulle il était question du concept duel ‘l’esprit et
-                la main’ pour désigner le couple à l’œuvre chez l’artisan, avec
-                la fabrication numérique il s’agit peut être d’un ménage à
-                trois, la main de l’artisan est parfois remplacée par celle de
-                la machine à laquelle il faut alors savoir insuffler l’esprit de
-                l’artisan, sa vision.
-              </p>
-              <p className="p-3 mb-4 md:text-lg font-medium leading-loose display-inline bg-black bg-opacity-50">
                 En 2016, avec ma collection Styx, je suis lauréat du prix Jeune
                 Talent organisé par le Carrousel des Métiers d’Art et de
                 Création.
               </p>
-            </div>
-            <div className="md:w-1/2 md:px-5 flex items-start justify-end ">
-              <div className="flex flex-col w-full">
-                <div className="max-w-full mb-8 self-end">
-                  <Image
-                    src={portrait}
-                    alt="Photo"
-                    width="500"
-                    height="500"
-                    priority
-                    className="max-w-full object-cover rounded-lg"
-                  />
-                  <div className="w-full bg-black bg-opacity-50 p-4 rounded-lg ml-auto mt-4">
-                    <p className="font-bold mb-2">
-                      Olivier Glorieux - 06 62 49 24 08 -{" "}
-                      <a
-                        href="mailto:olivier@atelierarcadie.fr"
-                        className=" hover:text-blue-300 underline"
-                      >
-                        olivier@atelierarcadie.fr
-                      </a>
-                    </p>
-                    <p className="mb-2"> </p>
-                    <p className="mb-2">3 rue du Bois Haligan 44100 Nantes</p>
-                    <p className="mb-2">Sur Rendez-Vous</p>
-                  </div>
+              <p className="p-3 mb-4 md:text-lg font-medium leading-loose display-inline bg-black bg-opacity-50">
+                Depuis 2019 je navigue entre mon atelier où j'ai un travail
+                artisanal, mon bureau ou je fais du développement informatique
+                appliqué à la fabrication via grasshopper 3d et rhinoceros
+                (robotique, usinage, automatisation des process, dessin
+                géneratif) et les entreprises dans lesquelles je fais des
+                formations ou des interventions sous forme d'atelier de
+                fabrication numérique.
+              </p>
+              <div className="w-full bg-black bg-opacity-50 p-4 rounded-lg ml-auto mt-4">
+                <div className="flex items-center justify-between">
+                  <p className="font-bold mb-2">Olivier Glorieux</p>
+                  <p className="font-bold mb-2"> 06 62 49 24 08 </p>
+                  <p className="font-bold mb-2">
+                    <a
+                      href="mailto:olivier@atelierarcadie.fr"
+                      className=" hover:text-blue-300 underline"
+                    >
+                      olivier@atelierarcadie.fr
+                    </a>
+                  </p>
+                </div>
+                <p className="mb-2">3 rue du Bois Haligan 44100 Nantes</p>
+
+                <div className="flex items-center justify-between">
+                  <p className="mb-2">Sur Rendez-Vous</p>
+                  <p className="mb-2">
+                    <a
+                      href="/CVOlivierGlorieuxProgrammeurEbeniste.pdf"
+                      target="_blank"
+                      className="hover:text-blue-300 underline"
+                    >
+                      Curriculum Vitae
+                    </a>
+                  </p>
                 </div>
               </div>
+            </div>
+            <div className="max-w-full mb-8">
+              <Image
+                src={portrait}
+                alt="Photo"
+                width="700"
+                height="700"
+                priority
+                className="max-w-full object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>

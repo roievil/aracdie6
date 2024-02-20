@@ -1,0 +1,140 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.19.0" title="Shotcut version 23.07.29" producer="main_bin">
+  <profile description="automatic" width="1440" height="1440" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1" display_aspect_den="1" frame_rate_num="37296" frame_rate_den="1243" colorspace="709"/>
+  <chain id="chain0" out="00:00:08.599">
+    <property name="length">00:00:08.632</property>
+    <property name="eof">pause</property>
+    <property name="resource">20231127_093739.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-11-27T08:37:49</property>
+    <property name="shotcut:caption">20231127_093739.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:hash">e30977e9174efd996bcdf1209deb3c52</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:02:01.366">
+    <property name="length">00:02:01.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">futuristic-beat-146661.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-02-19T13:04:49</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a4c6a7c8132399ac6c0f3467279ea9b4</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:08.599"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:02:01.366"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:08.599">
+    <property name="length">00:00:08.632</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:08.599"/>
+  </playlist>
+  <chain id="chain2" out="00:00:08.599">
+    <property name="length">00:00:08.632</property>
+    <property name="eof">pause</property>
+    <property name="resource">20231127_093739.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-11-27T08:37:49</property>
+    <property name="shotcut:caption">20231127_093739.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:hash">e30977e9174efd996bcdf1209deb3c52</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:08.599"/>
+  </playlist>
+  <chain id="chain3" out="00:02:01.366">
+    <property name="length">00:02:01.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">futuristic-beat-146661.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-02-19T13:04:49</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a4c6a7c8132399ac6c0f3467279ea9b4</property>
+    <property name="shotcut:caption">futuristic-beat-146661.mp3</property>
+    <filter id="filter0" out="00:00:08.599">
+      <property name="start">1</property>
+      <property name="level">00:00:07.965=1;00:00:08.599=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:00.667</property>
+    </filter>
+    <filter id="filter1" out="00:00:08.599">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.633=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:00.667</property>
+    </filter>
+    <filter id="filter2" out="00:00:08.599">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-20</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:08.599"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 23.07.29" in="00:00:00.000" out="00:00:08.599">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
