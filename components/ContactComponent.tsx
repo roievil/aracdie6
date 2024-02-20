@@ -58,8 +58,8 @@ const Contact = (): JSX.Element => {
                 formations ou des interventions sous forme d'atelier de
                 fabrication numérique.
               </p>
-              <div className="w-full bg-black bg-opacity-50 p-4 rounded-lg ml-auto mt-4">
-                <div className="flex items-center justify-between">
+              <div className="md:w-1/2 bg-black bg-opacity-50 p-4 rounded-lg  mt-4">
+                <div className="flex flex-col md:flex-row items-start justify-between">
                   <p className="font-bold mb-2">Olivier Glorieux</p>
                   <p className="font-bold mb-2"> 06 62 49 24 08 </p>
                   <p className="font-bold mb-2">
@@ -71,7 +71,9 @@ const Contact = (): JSX.Element => {
                     </a>
                   </p>
                 </div>
-                <p className="mb-2">3 rue du Bois Haligan 44100 Nantes</p>
+                <div className="flex flex-col md:flex-row items-start justify-between">
+                  <p className="mb-2">3 rue du Bois Haligan 44100 Nantes</p>
+                </div>
 
                 <div className="flex items-center justify-between">
                   <p className="mb-2">Sur Rendez-Vous</p>
