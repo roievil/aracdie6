@@ -47,7 +47,7 @@ export const projects: IProject[] = [
     {
       name: "Génération de parcours d'outils",
     description:
-      "Automatisation de la chaîne de production de semelles orthopédiques de ErgoRecherche",
+      "<span>Automatisation de la chaîne de production de semelles orthopédiques de <a class=\"underline hover:no-underline\" href=\"https://www.ergorecherche.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">ErgoRecherche</a>.",
     image_path: "/images/projets/programmation/ergoRecherche/vignetteErgoRecherche.png",
     whiteBg: false,
     category: "Programmation",
@@ -55,7 +55,7 @@ export const projects: IProject[] = [
                 slides: [                                {
                     type: "video",
                     slidePath: "/videos/toolpathGeneration.mp4",
-                    slideLegend: "A VENIR",
+                    slideLegend: "<span >L'entreprise de fabrication de semelles orthopédiques ErgoRecherche située à Dijon avait consenti à de nombreux efforts d'automatisation de sa chaîne de commande et de fabrication. La dernière pierre à apporter à l'édifice étant de remplacer le logiciel de CAM Powermill par un système automatisé de création de parcours d'outils et d'instructions machines (gCode propriétaire).<ul style=\"list-style: circle; padding-top: 2%; margin-left: 2%; \"><li style=\" padding:2%\">ErgoRecherche fournit au podologue un logiciel lui permettant de spécifier en 3D la prothèse qu'il souhaite prescrire à son patient (réalisé par Kinematiq à l'aide de Rhinceros3D et de Grasshopper)</li><li style=\" padding:2%\">La commande est reçue à l'usine de Dijon où elle est dispatchée par l'équipe de ErgoRecherche qui se sert du logiciel podofeet (réalisé par Kinematiq) pour constituer la table d'usinage où les semelles à usiner sont placées automatiquement en fonction de leurs caractéristiques (taille, matériau...) et d'autres critères relatifs à la charge de travail par exemple.</li><li style=\" padding:2%\">Vient ensuite la définition grasshopper que j'ai réalisée pour Kinematiq et ErgoRecherche qui  remplace le logiciel Powermill.Powermill mobilisait pour chaque table d'usinage le concours d'un technicien, la définition grasshopper analysedirectement les géométries dessinées par les podologues et en calculant des parcours d'outils.Ces parcours d'outils respectent ou améliorent les stratégies d'usinage déjà en place, pour un temps de calcul inférieur.</li><li style=\" padding:2%\">Les tables sont donc usinées et une fois les semelles sorties elles sont finies puis envoyées au podologues.</li></ul></span>",
                     alt: "porteplume en valchromat noir",
                     width: 800,
                     height: 800
