@@ -695,6 +695,57 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
             ]
   },
   { 
+    name: "Local Poubelle NMH",
+    description:
+      "Mise en plan d'un local poubelle pour Nantes Métropole Habitat",
+    image_path: "/images/projets/modelisation/NMH/localPoubelle.png",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/NMH/localPoubelle.png",
+                    slideLegend: "Modelisation et mise en plan réalisée pour <a class=\"underline hover:no-underline\" href=\"https://www.atao-insertion.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">ATAO</a> à l'aide du logiciel Solidworks.</span>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/NMH/localPoubelle10.png",
+                    slideLegend: "Une sélection des plans réalisés pour ce local, ATAO est une association d'insertion professionnelle",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/NMH/localPoubelle20.png",
+                    slideLegend: "",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/NMH/localPoubelle30.png",
+                    slideLegend: "",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/NMH/localPoubelle40.png",
+                    slideLegend: "",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+            ]
+  },
+  { 
     name: "Etuis de liseuse Kobo",
     description:
       "Commande particulière",
