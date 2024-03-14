@@ -544,6 +544,58 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                 },
             ]
   },
+  ,
+  { 
+    name: "Appuis vélos",
+    description:
+      "Design et mise en plan d'une série d'appuis vélos pour ATAO",
+    image_path: "/images/projets/modelisation/appuisVelo/appuisVeloSQ.png",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/appuisVelo/appuisVelo.jpg",
+                    slideLegend: "Conception d'une série d'appuis vélos destinés à l'île de Nantes pour <a class=\"underline hover:no-underline\" href=\"https://www.atao-insertion.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">ATAO</a>.</span>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/appuisVelo/appuisVelo10.jpg",
+                    slideLegend: "Les appuis vélos devaient cibler les vélos classiques mais aussi les vélos cargos, voire uniquement ces derniers à leurs emplacements réservés.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/appuisVelo/appuisVelo20.png",
+                    slideLegend: "Toute la série d'appuis vélos devait répondre au normes énoncées dans le CCTP (Cahier des Clauses Techniques Particulières) rédigé par la Direction de l'espace public de Nantes Métropole.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/appuisVelo/appuisVelo30.jpg",
+                    slideLegend: "ATAO est une association d'insertion professionnelle, les appuis vélos sont fabriqués par des apprenants et doivent donc prendre en compte des contraintes pédagogiques.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/appuisVelo/appuisVelo40.jpg",
+                    slideLegend: "Un modèle d'appuis vélo cargo fabriqué et installé.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+            ]
+  },
   { 
     name: "Porteplume Kopis",
     description:
@@ -695,7 +747,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
             ]
   },
   { 
-    name: "Local Poubelle NMH",
+    name: "Local Services NMH",
     description:
       "Mise en plan d'un local poubelle pour Nantes Métropole Habitat",
     image_path: "/images/projets/modelisation/NMH/localPoubelle.png",
@@ -705,7 +757,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                 slides: [
                 {
                     type: "picture",
-                    slidePath: "/images/projets/modelisation/NMH/localPoubelle.png",
+                    slidePath: "/images/projets/modelisation/NMH/localPoubelle05.png",
                     slideLegend: "Modelisation et mise en plan réalisée pour <a class=\"underline hover:no-underline\" href=\"https://www.atao-insertion.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">ATAO</a> à l'aide du logiciel Solidworks.</span>",
                     alt: "coffee tables templates",
                     width: 2560,
@@ -714,7 +766,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                 {
                     type: "picture",
                     slidePath: "/images/projets/modelisation/NMH/localPoubelle10.png",
-                    slideLegend: "Une sélection des plans réalisés pour ce local, ATAO est une association d'insertion professionnelle",
+                    slideLegend: "Une sélection des plans réalisés pour ce local, ATAO est une association d'insertion professionnelle.",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
@@ -722,7 +774,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                 {
                     type: "picture",
                     slidePath: "/images/projets/modelisation/NMH/localPoubelle20.png",
-                    slideLegend: "",
+                    slideLegend: "En concertation avec les encadrants de ATAO j'ai fait la mise en plan ainsi qu'une partie de la conception pour obtenir un résultat adapté aux apprenants.",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
@@ -730,7 +782,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                 {
                     type: "picture",
                     slidePath: "/images/projets/modelisation/NMH/localPoubelle30.png",
-                    slideLegend: "",
+                    slideLegend: "L'atelier d'ATAO est un atelier centré sur le travail du métal mais comporte aussi toute une partie menuiserie.",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
