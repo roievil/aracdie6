@@ -12,6 +12,8 @@ const About: NextPage = () => {
       style={{
         height: "88vh",
         backgroundImage: "url('./images/accueil/arcadieBannerFond.png')",
+        backgroundOrigin: "border-box",
+        backgroundPosition: "0% 0%",
         backgroundColor: "9aa0a8",
       }}
     >
