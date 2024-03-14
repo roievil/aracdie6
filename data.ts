@@ -51,7 +51,7 @@ export const projects: IProject[] = [
     image_path: "/images/projets/programmation/ergoRecherche/vignetteErgoRecherche.png",
     whiteBg: false,
     category: "Programmation",
-    key_techs: ["Prototypage", "Découpe laser"],
+    key_techs: ["Grasshopper", "Toolpath", "gCode"],
                 slides: [                                {
                     type: "video",
                     slidePath: "/videos/toolpathGeneration.mp4",
@@ -68,7 +68,7 @@ export const projects: IProject[] = [
     image_path: "/images/projets/programmation/impression3dCeramique/vignetteImpression3DCeramique.png",
     whiteBg: true,
     category: "Programmation",
-    key_techs: ["Prototypage", "Découpe laser"],
+    key_techs: ["Grasshopper", "Toolpath", "gCode", "3DPrinting"],
                 slides: [
                 {
                     type: "video",
@@ -125,7 +125,7 @@ export const projects: IProject[] = [
     image_path: "/images/projets/programmation/dupre/vignetteDupre.png",
     whiteBg: true,
     category: "Programmation",
-    key_techs: ["Prototypage", "Découpe laser"],
+    key_techs: ["Grasshopper", "Toolpath", "gCode"],
                 slides: [                {
                     type: "picture",
                     slidePath: "/images/projets/programmation/dupre/vignetteDupre.png",
@@ -142,7 +142,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/programmation/os2m/vignetteOs2m.png",
     whiteBg: true,
     category: "Programmation",
-    key_techs: ["Prototypage", "Découpe laser"],
+    key_techs: ["Grasshopper", "Mise en Plan"],
                 slides: [                {
                     type: "picture",
                     slidePath: "/images/projets/programmation/os2m/vignetteOs2m.png",
@@ -159,7 +159,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/modelisation/tableRiva/riva.jpg",
     whiteBg: true,
     category: "Modélisation",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+    key_techs: ["Mise en Plan", "Gabarits", "Chêne Massif"],
                 slides: [
                 {
                     type: "picture",
@@ -238,21 +238,20 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                                 ,
                 {
                     type: "picture",
+                    slidePath: "/images/projets/modelisation/tableRiva/riva90.jpeg",
+                    slideLegend: "La table 1200 dans l'atelier de Jules Battais, Clisson.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                } ,               {
+                    type: "picture",
                     slidePath: "/images/projets/modelisation/tableRiva/riva85.jpeg",
                     slideLegend: "La table 1400 terminée.",
                     alt: "coffee tables templates",
                     width: 2560,
                     height: 2560
                 }
-                ,
-                {
-                    type: "picture",
-                    slidePath: "/images/projets/modelisation/tableRiva/riva90.jpeg",
-                    slideLegend: "La table 1200 dans l'atelier de Jules Battais, Clisson.",
-                    alt: "coffee tables templates",
-                    width: 2560,
-                    height: 2560
-                }
+                
             ]
   },
   { 
@@ -262,7 +261,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/bois/trophees/trophee10ParArcadie.jpg",
     whiteBg: false,
     category: "Ebénisterie",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Chêne massif"],
                 slides: [
                 {
                     type: "picture",
@@ -337,7 +336,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/modelisation/chaiseJules/chaiseJules10.jpeg",
     whiteBg: true,
     category: "Modélisation",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+    key_techs: ["Ébénisterie", "Gabarits", "Cintrage", "Noyer"],
                 slides: [
                 {
                     type: "picture",
@@ -412,7 +411,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/bois/coffrets/coffretGriffon30ParArcadie.jpg",
     whiteBg: false,
     category: "Ebénisterie",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Découpe numérique", "Valchromat"],
                 slides: [
                 {
                     type: "picture",
@@ -552,7 +551,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/modelisation/appuisVelo/appuisVeloSQ.png",
     whiteBg: true,
     category: "Modélisation",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+    key_techs: ["Design", "Mise en Plan"],
                 slides: [
                 {
                     type: "picture",
@@ -603,7 +602,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/bois/coffrets/Kopis10parArcadie.jpg",
     whiteBg: false,
     category: "Ebénisterie",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
+    key_techs: ["Ébénisterie", "Gravure Laser", "Découpe numérique", "Valchromat"],
                 slides: [
                 {
                     type: "picture",
@@ -662,7 +661,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/bois/coffrets/samson20parArcadie.jpg",
     whiteBg: false,
     category: "Ebénisterie",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
+    key_techs: ["Ébénisterie", "Gravure Laser", "Découpe numérique", "Valchromat"],
                 slides: [
                 {
                     type: "picture",
@@ -753,7 +752,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/modelisation/NMH/localPoubelle.png",
     whiteBg: true,
     category: "Modélisation",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Mixed Media"],
+    key_techs: ["Mise en plan"],
                 slides: [
                 {
                     type: "picture",
@@ -804,7 +803,7 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
     image_path: "/images/projets/cuir/pochetteCuirLiseuseParArcadie23.jpg",
     whiteBg: false,
     category: "Découpe numérique",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser"],
+    key_techs: ["Ébénisterie", "Découpe laser", "Prototypage", "Cuir"],
                 slides: [
                 {
                     type: "picture",
