@@ -654,6 +654,42 @@ slideLegend:"<p style=\" padding:2%\" >L'entreprise de menuiserie Dupré située
                 }
             ]
   },
+    ,
+  { 
+    name: "Tête fraiseuse CNC",
+    description:
+      "Design, mise en plan et fabrication d'un module porte broche et aspiration d'une fraiseuse CNC",
+    image_path: "/images/projets/modelisation/Z/Z.png",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Design", "Mise en Plan", "Prototypage"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/Z/Z10.png",
+                    slideLegend: "Remplacement du porte broche suite à un changement de broche de fraiseuse, passage d'une Kress à une broche plus puissante, refroidie à l'eau, intégration du module d'aspiration.</span>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/Z/Z.png",
+                    slideLegend: "",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/Z/Z20.png",
+                    slideLegend: "La tête de fraiseuse en vrai avec la jupe d'aspiration menant au tube de plexiglas auquel est attaché le tuyau d'aspiration. La jupe coulisse dans l'axe Z et peut être enlevée si besoin.",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }
+            ]
+  },
   { 
     name: "Boite à bijoux Samson",
     description:
