@@ -73,7 +73,7 @@ export const projects: IProject[] = [
                 {
                     type: "video",
                     slidePath: "/videos/impression3dCeramique.mp4",
-                    slideLegend: "Vue détaillée du programme grasshopper qui permet de slicer une géométrie puis de générer le Gcode spécifique à l'imprimante3D céramique du designer Yoann Bordès Pages",
+                    slideLegend: "Vue détaillée du programme grasshopper qui permet de slicer une géométrie puis de générer le Gcode spécifique à l'imprimante3D céramique du designer Yoann Bordès Pages. Une cinématique non planaire signifie que les couches d'impressions ne sont pas a priori planes, les coordonnées en Z du cordon d'impressions varient en fonction du modèle. Le facteur d'Extrusion 'E' est lui aussi variable et calculé pour chaque point en fonction du modèle.",
                     alt: "Impression 3D céramique",
                     width: 800,
                     height: 800
