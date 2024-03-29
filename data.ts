@@ -1023,7 +1023,7 @@ slideLegend:"<span >L'entreprise de menuiserie Dupré située en Anjou souhaitai
                 {
                     type: "picture",
                     slidePath: "/images/projets/cuir/marqueterieCuir/WrongSQ.png",
-                    slideLegend: "Chaque module peut contenir 10 capsules, soit le contenu d'une boite",
+                    slideLegend: "Inspiré de la technique traditionnelle de marqueterie de placage de bois, la marqueterie de cuir est réalisée à l'aide de la découpeuse laser.",
                     alt: "range capsules nespresso",
                     width: 1620,
                     height: 1620
@@ -1031,7 +1031,7 @@ slideLegend:"<span >L'entreprise de menuiserie Dupré située en Anjou souhaitai
                                 {
                     type: "video",
                     slidePath: "/videos/marqueterieCuir.mp4",
-                    slideLegend: "decoupe laser sur cuir",
+                    slideLegend: "découpe laser sur cuir",
                     alt: "decoupe laser sur cuir",
                     width: 800,
                     height: 800
