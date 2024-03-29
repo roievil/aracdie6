@@ -6,10 +6,10 @@
    version="1.1"
    id="svg31"
    sodipodi:docname="vignetteOs2m.svg"
-   inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\os2m\vignetteOs2m.png"
+   inkscape:export-filename="vignetteOs2m.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -28,20 +28,23 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.50967642"
-     inkscape:cx="762.24833"
-     inkscape:cy="799.52688"
+     inkscape:zoom="0.36039565"
+     inkscape:cx="478.64062"
+     inkscape:cy="622.92649"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg31"
-     showguides="false">
+     showguides="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="684.24938,1312.0748"
        orientation="0,-1"
-       id="guide1356" />
+       id="guide1356"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs17">
@@ -157,18 +160,18 @@
      y="-74.748268"
      transform="rotate(-90)" />
   <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.19574;stroke-linecap:round"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08015;stroke-linecap:round"
      id="rect891-9-8"
      width="1396.5298"
-     height="351.90698"
+     height="287.16"
      x="0"
      y="0" />
   <image
-     width="690.66681"
-     height="269.3334"
+     width="736.38055"
+     height="287.16"
      preserveAspectRatio="none"
      xlink:href="logo.png"
      id="image1253"
-     x="352.93149"
-     y="41.286804" />
+     x="330.07462"
+     y="0" />
 </svg>

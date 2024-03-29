@@ -254,6 +254,98 @@ slideLegend:"<span >L'entreprise de menuiserie Dupré située en Anjou souhaitai
                 
             ]
   },
+    { 
+    name: "Arbre aux Hérons",
+    description:
+      "<span>Modelisation et conception des escaliers et passerelles de l'Arbre aux Hérons pour la compagnie <a class=\"underline hover:no-underline\" href=\"https://www.lamachine.fr\" target=\"_blank\" rel=\"noopener noreferrer\">La Machine</a> à Nantes.</span>",
+    image_path: "/images/projets/modelisation/arbre/arbreDessusSqFront.jpg",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Rhinoceros3D", "Grasshopper", "Bureau d'Etudes"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/arbreDessusSq.jpg",
+                    slideLegend: "<p>Au sein du bureau d'étude de <a class=\"underline hover:no-underline\" href=\"https://arbreauxherons.fr\" target=\"_blank\" rel=\"noopener noreferrer\">l'Arbre aux Hérons</a>, œuvre imaginée par François Delaroziere et Pierre Orefice, j'ai participé à l'étude et la modélisation en taille réelle sur Rhinoceros3D de l'arbre. </p> <br> <p> Nous étions une vingtaine à étudier et concevoir le modèle, en concertation avec les auteurs et j'étais responsable des passerelles et escaliers.</p>",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/ArbreCroquis.png",
+                    slideLegend: "\"Niché au cœur du Jardin Extraordinaire à Nantes, l’Arbre aux Hérons est une sculpture monumentale imaginée par Pierre Orefice et François Delaroziere. <br> Inspiré des banians, il mesure 35 mètres de haut et 50 mètres de diamètre. Une vingtaine de branches accueille des jardins suspendus sous forme de micro-paysages. <br>L’Arbre est une arche végétale où se développent plus de 130 espèces. <br>Un bestiaire mécanique composé d’une trentaine d’animaux y a élu domicile. On y croise des colibris, un paresseux, des papillons, des oies sauvages…<br>À sa cime niche un couple de Hérons.\" <br> <br> extrait du site <a class=\"underline hover:no-underline\" href=\"https://www.lamachine.fr/projets-urbains/larbre-aux-herons/\" target=\"_blank\" rel=\"noopener noreferrer\">www.lamachine.fr</a>",
+                    //sideLegendEng:"the Herons Tree is a colossal 35 meters high (110 feet) and 1700 tons steel sculpture. The plant take root in this metal structure, taking the form of hanging gardens. It is crowned by 2 giant herons; each can carry up to twelve passengers for a circular flight. The tree’s 22 branches stretcha combined length of 1.4 kilometres (0,7miles). Plants take root in the steel and the public can visit incredible gardens going form branch to branch, like a series of interconnected hanging terraces. Accesses to the herons and to the hanging gardens are separate. <br> <br> from the website <a class=\"underline hover:no-underline\" href=\"https://www.lamachine.fr/en/projets-urbains/the-heron-tree/\" target=\"_blank\" rel=\"noopener noreferrer\">www.lamachine.fr/en</a>",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/circulationEtageMoyen2.jpg",
+                    slideLegend: "<p>Vue du deuxième étage de l'arbre, on voit les circulations possibles sur les branches en turquoise et les connexions sur lesquelles j'ai travaillé en violet, il s'agit de passerelles ou d'escaliers.</p><p><br><p>Les ramures turquoises sont le squelette à partir duquel la définition grasshopper va générer les extrusions visible dans la prochaine vue.</p>",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/circulationEtageMoyen2A.jpg",
+                    slideLegend: "Vue du deuxième étage de l'arbre, avec l'acier, les volumes ont été générés par grasshopper, ainsi si l'on modifie l'âme turquoise d'une branche on pourra recalculer les volumes automatiquement.",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/circulationEtageMoyenRender.jpg",
+                    slideLegend: "Vue de détail du deuxième étage.",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/passerelle.jpg",
+                    slideLegend: "Détail d'une passerelle.",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/ConnexionPasserelle.jpg",
+                    slideLegend: "Détail de la connexion passerelle / branche.",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/coupeTechniquePasserelle.jpg",
+                    slideLegend: "Coupe technique de passerelle.",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/brancheProto.jpg",
+                    slideLegend: "Photo de la branche prototype présente sur le site des machines de l'île, Nantes.",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+                                {
+                    type: "picture",
+                    slidePath: "/images/projets/modelisation/arbre/vueOuestSq.jpg",
+                    slideLegend: "Vue Ouest de l'arbre. <br> <br> <i>source <a class=\"underline hover:no-underline\" href=\"https://www.lamachine.fr/projets-urbains/larbre-aux-herons/\" target=\"_blank\" rel=\"noopener noreferrer\">www.lamachine.fr</a></i>",
+                    alt: "Arbre aux Herons",
+                    width: 2560,
+                    height: 2560
+                },
+            ]
+  },
   { 
     name: "Trophées pour le festival des 3 continents",
     description:
@@ -404,6 +496,23 @@ slideLegend:"<span >L'entreprise de menuiserie Dupré située en Anjou souhaitai
                 }
             ]
   },
+            {
+      name: "Formation Grasshopper",
+    description:
+      "<span> Formation Grasshopper appliquée aux programmes de robotique de <a class=\"underline hover:no-underline\" href=\"https://www.batiprint3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Batiprint3d, à Nantes</a>.",
+    image_path: "/images/projets/programmation/batiprint/vignetteBatiprint.png",
+    whiteBg: true,
+    category: "Programmation",
+    key_techs: ["Grasshopper", "Formation"],
+                slides: [                {
+                    type: "picture",
+                    slidePath: "/images/projets/programmation/batiprint/vignetteBatiprintFull.png",
+                    slideLegend: "<p>L'entreprise Batiprint3D souhaitait former une partie de son staff à la programmation grasshopper.</p><p><br></p><p>Kinematiq m'a demandé de leur préparer une formation de plusieurs jours personnalisée, appliquée aux définitions de production de Batiprint. </p>",
+                    alt: "coffee tables templates",
+                    width: 2560,
+                    height: 2560
+                }]
+            },
   { 
     name: "Coffret à Gemmes Griffon",
     description:
@@ -899,6 +1008,33 @@ slideLegend:"<span >L'entreprise de menuiserie Dupré située en Anjou souhaitai
                     alt: "range capsules nespresso",
                     width: 1620,
                     height: 1620
+                }
+            ]
+  },
+  { 
+    name: "Marqueterie de cuir",
+    description:
+      "Modernisation de technique traditionnelle",
+    image_path: "/images/projets/cuir/marqueterieCuir/WrongSQ.png",
+    whiteBg: false,
+    category: "Découpe numérique",
+    key_techs: ["Prototypage", "Découpe laser"],
+                slides: [
+                {
+                    type: "picture",
+                    slidePath: "/images/projets/cuir/marqueterieCuir/WrongSQ.png",
+                    slideLegend: "Chaque module peut contenir 10 capsules, soit le contenu d'une boite",
+                    alt: "range capsules nespresso",
+                    width: 1620,
+                    height: 1620
+                },
+                                {
+                    type: "video",
+                    slidePath: "/videos/marqueterieCuir.mp4",
+                    slideLegend: "decoupe laser sur cuir",
+                    alt: "decoupe laser sur cuir",
+                    width: 800,
+                    height: 800
                 }
             ]
   }

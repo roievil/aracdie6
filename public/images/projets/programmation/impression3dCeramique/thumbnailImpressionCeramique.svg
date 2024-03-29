@@ -6,16 +6,16 @@
    version="1.1"
    id="svg31"
    sodipodi:docname="thumbnailImpressionCeramique.svg"
-   inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\impression3dCeramique\vignetteImpression3DCeramique.png"
+   inkscape:export-filename="vignetteImpression3DCeramique.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview33"
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,40 +28,35 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.12741911"
-     inkscape:cx="3033.2971"
-     inkscape:cy="-192.27886"
+     inkscape:zoom="0.50967644"
+     inkscape:cx="593.51379"
+     inkscape:cy="730.85583"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg31"
-     showguides="false">
-    <sodipodi:guide
+     showguides="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"><sodipodi:guide
        position="684.24938,1312.0748"
        orientation="0,-1"
-       id="guide1356" />
-  </sodipodi:namedview>
-  <defs
-     id="defs17">
-    <radialGradient
+       id="guide1356"
+       inkscape:locked="false" /></sodipodi:namedview><defs
+     id="defs17"><radialGradient
        id="radial-gradient"
        cx="6.0419998"
        cy="-0.229"
        r="6.6409998"
        gradientTransform="matrix(1.039,0,0,1,-0.019,0)"
-       gradientUnits="objectBoundingBox">
-      <stop
+       gradientUnits="objectBoundingBox"><stop
          offset="0"
          stop-color="#005fae"
-         id="stop2" />
-      <stop
+         id="stop2" /><stop
          offset="1"
          stop-color="#002e5c"
-         id="stop4" />
-    </radialGradient>
-    <radialGradient
+         id="stop4" /></radialGradient><radialGradient
        id="radial-gradient-2"
        cx="156.27551"
        cy="68.521866"
@@ -70,8 +65,7 @@
        xlink:href="#radial-gradient"
        fx="156.27551"
        fy="68.521866"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
+       gradientUnits="userSpaceOnUse" /><radialGradient
        id="radial-gradient-3"
        cx="153.5645"
        cy="66.801933"
@@ -80,8 +74,7 @@
        xlink:href="#radial-gradient"
        fx="153.5645"
        fy="66.801933"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
+       gradientUnits="userSpaceOnUse" /><radialGradient
        id="radial-gradient-4"
        cx="141.51157"
        cy="69.614937"
@@ -90,8 +83,7 @@
        xlink:href="#radial-gradient"
        fx="141.51157"
        fy="69.614937"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
+       gradientUnits="userSpaceOnUse" /><radialGradient
        id="radial-gradient-5"
        cx="182.04942"
        cy="52.895012"
@@ -100,8 +92,7 @@
        xlink:href="#radial-gradient"
        fx="182.04942"
        fy="52.895012"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
+       gradientUnits="userSpaceOnUse" /><radialGradient
        id="radial-gradient-6"
        cx="94.06498"
        cy="41.770405"
@@ -110,62 +101,47 @@
        xlink:href="#radial-gradient"
        fx="94.06498"
        fy="41.770405"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
+       gradientUnits="userSpaceOnUse" /><linearGradient
        id="linear-gradient"
        x1="1.5974038"
        y1="12.040808"
        x2="27.969637"
        y2="-7.9568791"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.73225691,1.3656409)">
-      <stop
+       gradientTransform="scale(0.73225691,1.3656409)"><stop
          offset="0"
          stop-color="#f07500"
-         id="stop12" />
-      <stop
+         id="stop12" /><stop
          offset="1"
          stop-color="#7d4200"
-         id="stop14" />
-    </linearGradient>
-    <mask
+         id="stop14" /></linearGradient><mask
        maskUnits="userSpaceOnUse"
-       id="mask997">
-      <rect
+       id="mask997"><rect
          style="fill:#ffffff;stroke:#000000;stroke-width:0.888279;stroke-linecap:round"
          id="rect999"
          width="698.26477"
          height="388.40347"
          x="102.68148"
-         y="507.04196" />
-    </mask>
-    <mask
+         y="507.04196" /></mask><mask
        maskUnits="userSpaceOnUse"
-       id="mask14577">
-      <rect
+       id="mask14577"><rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.148483;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect14579"
          width="99.01152"
          height="198.17152"
          x="151.11192"
          y="609.9054"
-         transform="rotate(-90)" />
-    </mask>
-    <mask
+         transform="rotate(-90)" /></mask><mask
        maskUnits="userSpaceOnUse"
-       id="mask14501">
-      <rect
+       id="mask14501"><rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.148483;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect14503"
          width="99.01152"
          height="198.17152"
          x="-325.84766"
-         y="320.48422" />
-    </mask>
-    <mask
+         y="320.48422" /></mask><mask
        maskUnits="userSpaceOnUse"
-       id="mask45584">
-      <rect
+       id="mask45584"><rect
          style="fill:#ffffff;stroke:#000000;stroke-width:0.218585;stroke-linecap:round;stroke-opacity:1"
          id="rect45586"
          width="93.781418"
@@ -175,33 +151,26 @@
          rx="0"
          ry="0"
          inkscape:transform-center-x="-109.83182"
-         inkscape:transform-center-y="-5.000284" />
-    </mask>
-    <mask
+         inkscape:transform-center-y="-5.000284" /></mask><mask
        maskUnits="userSpaceOnUse"
-       id="mask45584-4">
-      <rect
-         style="fill:#ffffff;stroke:#000000;stroke-width:0.218585;stroke-linecap:round;stroke-opacity:1"
-         id="rect45586-3"
-         width="93.781418"
-         height="140.28142"
+       id="mask1"><rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.218586;stroke-linecap:round;stroke-opacity:1"
+         id="rect1"
+         width="93.781235"
+         height="149.97346"
          x="-199.96269"
-         y="83.286354"
+         y="73.59433"
          rx="0"
          ry="0"
          inkscape:transform-center-x="-109.83182"
-         inkscape:transform-center-y="-5.000284" />
-    </mask>
-  </defs>
-  <image
+         inkscape:transform-center-y="-5.000284" /></mask></defs><image
      width="1396.53"
      height="1396.53"
      preserveAspectRatio="none"
-     xlink:href="Rhino_k2M3aZpUad.png"
-     id="image45389"
-     x="-0.21691895"
-     y="-0.73803711" />
-  <image
+     xlink:href="Rhino_k2M3aZpUad%20-%20Copie.png"
+     id="image1-9"
+     x="0"
+     y="0.52409375" /><image
      width="255.21283"
      height="255.21283"
      preserveAspectRatio="none"
@@ -209,31 +178,20 @@
      id="image45401"
      x="-222.79115"
      y="15.422749"
-     transform="matrix(-7.0489099,0,0,7.0489099,-38.717529,-231.07566)"
-     mask="url(#mask45584-4)" />
-  <rect
-     style="fill:none;stroke:#000000;stroke-width:1.47878;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect13525"
-     width="1395.0498"
-     height="1395.0499"
-     x="1.2633057"
-     y="0.74203503" />
-  <path
+     transform="matrix(-7.0489099,0,0,7.0489099,-30.393345,-231.07566)"
+     mask="url(#mask1)" /><path
      style="font-size:30.3388px;line-height:1.25;font-family:'Priscillia Script';-inkscape-font-specification:'Priscillia Script';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.054;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 685.19217,1158.3747 c -5.91603,-0.6308 -17.87382,-3.3079 -24.2213,-5.4227 -38.24297,-12.7416 -67.99895,-44.5134 -77.93485,-83.2145 -17.05209,-66.4191 24.72837,-132.94178 92.21168,-146.81889 9.5545,-1.96477 26.69028,-2.63153 36.96741,-1.43851 50.78708,5.89579 92.1798,43.98835 103.0043,94.7918 1.9778,9.2828 2.67697,27.0628 1.47235,37.4424 -2.33158,20.0888 -10.09131,39.6506 -22.66991,57.1492 -4.2265,5.8797 -18.77409,20.4273 -24.6538,24.6538 -17.09822,12.2907 -36.82107,20.2289 -56.0574,22.5623 -6.13197,0.7438 -22.31688,0.9137 -28.11848,0.2949 z m -12.91568,-57.2907 c 0.87743,-0.4563 20.61779,-12.6783 43.86759,-27.1601 37.58804,-23.4128 42.38954,-26.611 43.32979,-28.8614 0.90183,-2.1583 0.91126,-2.9174 0.0639,-5.1578 -0.87767,-2.3213 -4.68675,-5.1546 -32.73967,-24.3525 -54.48807,-37.28871 -55.26615,-37.79801 -57.7483,-37.79801 -3.94015,-0.69874 -7.10556,3.69968 -7.22912,8.15466 v 53.92515 52.6044 c 0,10.4025 8.56153,9.5772 10.45551,8.6456 z"
      id="path1781"
      sodipodi:nodetypes="ssssssssssssssssscccccs"
      inkscape:export-filename="C:\Users\roiev\source\repos\arcadie6\Dev-Portfolio-Next-X\public\images\projets\programmation\ergoRecherche\path1781.png"
      inkscape:export-xdpi="90"
-     inkscape:export-ydpi="90" />
-  <g
+     inkscape:export-ydpi="90" /><g
      aria-label="Ceramique"
      id="text4413-8-1"
      style="font-size:30.3388px;line-height:1.25;font-family:'Priscillia Script';-inkscape-font-specification:'Priscillia Script';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.758472"
-     transform="matrix(7.0489099,0,0,7.0489099,-56.192063,-166.50859)">
-    <g
-       id="g44584-1">
-      <text
+     transform="matrix(7.0489099,0,0,7.0489099,-56.192063,33.489895)"><g
+       id="g44584-1"><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.3388px;line-height:1.25;font-family:'Priscillia Script';-inkscape-font-specification:'Priscillia Script';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.758472"
          x="111.69154"
@@ -243,13 +201,11 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Answer;-inkscape-font-specification:Answer;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.758472;stroke-opacity:1"
            x="111.69154"
            y="78.599106"
-           id="tspan8103-0">Impression 3D</tspan></text>
-      <path
+           id="tspan8103-0">Impression 3D</tspan></text><path
          style="font-family:Answer;-inkscape-font-specification:Answer;stroke:#000000"
          d="m 72.253209,93.2747 h -2.31633 -4.09573 v -4.09573 h 4.09573 2.31633 z"
          id="path39302"
-         sodipodi:nodetypes="ccccccc" />
-      <text
+         sodipodi:nodetypes="ccccccc" /><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.3388px;line-height:1.25;font-family:'Priscillia Script';-inkscape-font-specification:'Priscillia Script';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.758472"
          x="111.91909"
@@ -259,7 +215,17 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Answer;-inkscape-font-specification:Answer;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.758472;stroke-opacity:1"
            x="111.91909"
            y="109.72028"
-           id="tspan8103-1-3">Ceramique</tspan></text>
-    </g>
-  </g>
-</svg>
+           id="tspan8103-1-3">Ceramique</tspan></text></g></g><rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08015;stroke-linecap:round"
+     id="rect891-9-8"
+     width="1396.5298"
+     height="287.16003"
+     x="0"
+     y="0.52409375" /><image
+     width="786.59662"
+     height="122.52877"
+     preserveAspectRatio="none"
+     xlink:href="YoannBordes-PAges.png"
+     id="image1"
+     x="304.96658"
+     y="82.839729" /></svg>
