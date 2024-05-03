@@ -2,11 +2,14 @@ export interface Service {
   icon: string;
   title: Category;
   about: string;
+  aboutEng: string;
 }
 
 export interface IProject {
   name: string;
+  nameEng: string;
   description: string;
+  descriptionEng: string;
   image_path: string;
   category: Category;
   whiteBg: boolean;
@@ -17,6 +20,7 @@ export interface IProject {
 export interface IGallerySlide {
   alt: string;
   slideLegend: string;
+  slideLegendEng: string;
   slidePath: string;
   width: number;
   height: number;
