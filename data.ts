@@ -125,7 +125,7 @@ export const projects: IProject[] = [
     name: "Trophées pour le YBN 2024",
     nameEng:"Trophies for the le YBN 2024",
     description:
-      "Commande du festival de Ultimate frisbee sur plage Yes But Nau, pour l'édition 2024",
+      "Commande du festival de Ultimate frisbee sur plage <a class=\"underline hover:no-underline\" href=\"https://yesbutnau.com/\" target=\"_blank\" rel=\"noopener noreferrer\">YES BUT NAU</a>, pour l'édition 2024",
     descriptionEng:"Bespoke order for the year 2024",
     image_path: "/images/projets/bois/YBN/YBN.JPG",
     whiteBg: false,
@@ -135,7 +135,7 @@ export const projects: IProject[] = [
         {
             type: "picture",
             slidePath: "/images/projets/bois/YBN/YBN10.JPG",
-            slideLegend: "Chaque année a lieu le Yes but Nau, festival européen de Ultimate frisbee, sur la plage du Nau, au Pouligen. Cette année je leur ai proposé d'expérimenter le recyclage des frisbee déclassés du club et d'utiliser cette matière première pour façonner les trophées.",
+            slideLegend: "Chaque année a lieu le <a class=\"underline hover:no-underline\" href=\"https://yesbutnau.com/\" target=\"_blank\" rel=\"noopener noreferrer\">YES BUT NAU</a>, festival européen de Ultimate frisbee, sur la plage du Nau, au Pouligen. Cette année je leur ai proposé d'expérimenter le recyclage des frisbee déclassés du club et d'utiliser cette matière première pour façonner les trophées.",
             slideLegendEng:"Chaque année a lieu le Yes but Nau, festival européen de Ultimate frisbee a lieu sur la plage du Nau, au Pouligen.",
             alt: "trophee festival des 3 continents",
             width: 2072,
@@ -167,15 +167,6 @@ export const projects: IProject[] = [
             alt: "trophee festival des 3 continents",
             width: 2588,
             height: 2588
-        },
-        {
-            type: "video",
-            slidePath: "/videos/YBN.mp4",
-            slideLegend: "Le trophée YBN 2024 sur la scelette !",
-            slideLegendEng:"The silver hot air balloon on the skeleton!",
-            alt: "trophee festival des 3 continents",
-            width: 800,
-            height: 800
         }
     ]
 }
@@ -436,198 +427,6 @@ export const projects: IProject[] = [
             height: 2560
         }
     ]
-}
-,
-{ 
-    name: "Trophées pour le festival des 3 continents",
-    nameEng:"Trophies for the \"Festival des 3 continents\"",
-    description:
-      "Commande pour l'édition 2023",
-    descriptionEng:"Bespoke order for the year 2023",
-    image_path: "/images/projets/bois/trophees/trophee10ParArcadie.jpg",
-    whiteBg: false,
-    category: "Ebénisterie",
-    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Chêne massif"],
-    slides: [
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee10ParArcadie.jpg",
-            slideLegend: "Réalisée en chêne massif, le logo est réalisé en découpes de métal, laiton, aluminium ou cuivre dépendemment du prix correspondant",
-            slideLegendEng:"Made of solid oak, the logo is crafted from metal cuts, brass, aluminum, or copper depending on the corresponding price",
-            alt: "trophee festival des 3 continents",
-            width: 2072,
-            height: 2072
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee20ParArcadie.jpg",
-            slideLegend: "Chacun des 5 trophées comporte le logo du festival gravé dans le chêne puis incrusté de plaque de métal.",
-            slideLegendEng:"Each of the 5 trophies features the festival's logo engraved in oak and then embedded with a metal plate.",
-            alt: "trophee festival des 3 continents",
-            width: 2336,
-            height: 2336
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee30ParArcadie.jpg",
-            slideLegend: "Mongolfière d'argent, incrustation d'aluminium.",
-            slideLegendEng:"Silver hot air balloon, aluminum inlay.",
-            alt: "trophee festival des 3 continents",
-            width: 1688,
-            height: 1688
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee40ParArcadie.jpg",
-            slideLegend: "Gravure des textes réalisées à la découpeuse laser.",
-            slideLegendEng:"Text engraving done with laser cutting.",
-            alt: "trophee festival des 3 continents",
-            width: 2588,
-            height: 2588
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee50ParArcadie.jpg",
-            slideLegend: "Mongolfière d'argent, incrustation de laiton.",
-            slideLegendEng:"Silver hot air balloon, brass inlay.",
-            alt: "trophee festival des 3 continents",
-            width: 1620,
-            height: 1620
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee60ParArcadie.jpg",
-            slideLegend: "Le chêne brut de sciage a ensuite été fini à l'huile cire dure pour une protection durable des trophées.",
-            slideLegendEng:"The rough-sawn oak was then finished with hard wax oil for lasting protection of the trophies.",
-            alt: "trophee festival des 3 continents",
-            width: 1620,
-            height: 1620
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/bois/trophees/trophee70ParArcadie.jpg",
-            slideLegend: "Prix du public, incrustation de cuivre.",
-            slideLegendEng:"Audience Award, copper inlay.",
-            alt: "trophee festival des 3 continents",
-            width: 1620,
-            height: 1620
-        },
-        {
-            type: "video",
-            slidePath: "/videos/trophee.mp4",
-            slideLegend: "La mongoflière d'argent sur la scelette !",
-            slideLegendEng:"The silver hot air balloon on the skeleton!",
-            alt: "trophee festival des 3 continents",
-            width: 800,
-            height: 800
-        }
-    ]
-}
-,
-{ 
-    name: "Rocking chair",
-    nameEng:"Rocking chair",
-    description:
-      "<span>Modelisation et conception des gabarits de cintrage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
-    descriptionEng:"",
-    image_path: "/images/projets/modelisation/chaiseJules/chaiseJules10.jpeg",
-    whiteBg: true,
-    category: "Modélisation",
-    key_techs: ["Ébénisterie", "Gabarits", "Cintrage", "Noyer"],
-    slides: [
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules20.jpeg",
-            slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
-            slideLegendEng:"Quick sketch of Jules' intention, from @atelierJulesB, Clisson.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules40.jpeg",
-            slideLegend: "Modélisation du meuble et aide à la fabrication : les berces et la coque seront réalisées par cintrage de lamelles ou feuilles de bois.",
-            slideLegendEng:"Furniture modeling and assistance in fabrication: the rockers and the shell will be made by bending slats or sheets of wood.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules50.jpeg",
-            slideLegend: "Pour réaliser des pièces de bois cintrées il faut encoller les lamelles puis les serrer dans un gabarit en deux parties : forme et contreforme.",
-            slideLegendEng:"To make curved wooden parts, it is necessary to glue the slats and then clamp them in a two-part jig: form and counterform.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules60.jpeg",
-            slideLegend: "Fichiers d'usinage des gabarits pour les berces",
-            slideLegendEng:"Machining files for the rockers jigs",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules70.jpeg",
-            slideLegend: "Gabarits en cours d'usinage.",
-            slideLegendEng:"Jigs being machined.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules80.jpeg",
-            slideLegend: "Gabarits prêts à l'usage, les deux parties de chaque gabarits coulissent l'une sur l'autre, grâce à des guides qui permettent aussi de garder un alignement parfait et donc permettent un serrage optimal.",
-            slideLegendEng:"Jigs ready for use, the two parts of each jig slide over each other, thanks to guides that also allow to maintain a perfect alignment and thus ensure optimal clamping.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules95.jpeg",
-            slideLegend: "Le fauteuil terminé.",
-            slideLegendEng:"The finished armchair.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        },
-        {
-            type: "picture",
-            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules99.jpeg",
-            slideLegend: "Détail des berces.",
-            slideLegendEng:"Detail of the rockers.",
-            alt: "rocking Chair templates",
-            width: 2560,
-            height: 2560
-        }
-    ]
-}
-,
-{
-    name: "Formation Grasshopper",
-    nameEng:"Grasshopper course",
-    description: "<span> Formation Grasshopper appliquée aux programmes de robotique de <a class=\"underline hover:no-underline\" href=\"https://www.batiprint3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Batiprint3d, à Nantes</a>.",
-    descriptionEng:"",
-    image_path: "/images/projets/programmation/batiprint/vignetteBatiprint.png",
-    whiteBg: true,
-    category: "Programmation",
-    key_techs: ["Grasshopper", "Formation"],
-    slides: [{
-        type: "picture",
-        slidePath: "/images/projets/programmation/batiprint/vignetteBatiprintFull.png",
-        slideLegend: "<p>L'entreprise Batiprint3D souhaitait former une partie de son staff à la programmation grasshopper.</p><p><br></p><p>Kinematiq m'a demandé de leur préparer une formation de plusieurs jours personnalisée, appliquée aux définitions de production de Batiprint. </p>",
-        slideLegendEng:"Batiprint3D company wanted to train part of its staff in Grasshopper programming.</p><p><br></p><p>Kinematiq asked me to prepare a personalized multi-day training applied to Batiprint's production definitions.",
-        alt: "coffee tables templates",
-        width: 2560,
-        height: 2560
-    }]
 },
 {
     name: "Coffret à Gemmes Griffon",
@@ -781,6 +580,197 @@ export const projects: IProject[] = [
             alt: "présentoirs noirs inscrustations d'argent",
             width: 2560,
             height: 2560
+        }
+    ]
+}
+,
+{ 
+    name: "Rocking chair",
+    nameEng:"Rocking chair",
+    description:
+      "<span>Modelisation et conception des gabarits de cintrage pour @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a> à Clisson.</span>",
+    descriptionEng:"",
+    image_path: "/images/projets/modelisation/chaiseJules/chaiseJules10.jpeg",
+    whiteBg: true,
+    category: "Modélisation",
+    key_techs: ["Ébénisterie", "Gabarits", "Cintrage", "Noyer"],
+    slides: [
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules20.jpeg",
+            slideLegend: "Rapide croquis d'intention de Jules, de @<a class=\"underline hover:no-underline\" href=\"https://www.instagram.com/atelierjulesb\" target=\"_blank\" rel=\"noopener noreferrer\">atelierJulesB</a>.</span>",
+            slideLegendEng:"Quick sketch of Jules' intention, from @atelierJulesB, Clisson.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules40.jpeg",
+            slideLegend: "Modélisation du meuble et aide à la fabrication : les berces et la coque seront réalisées par cintrage de lamelles ou feuilles de bois.",
+            slideLegendEng:"Furniture modeling and assistance in fabrication: the rockers and the shell will be made by bending slats or sheets of wood.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules50.jpeg",
+            slideLegend: "Pour réaliser des pièces de bois cintrées il faut encoller les lamelles puis les serrer dans un gabarit en deux parties : forme et contreforme.",
+            slideLegendEng:"To make curved wooden parts, it is necessary to glue the slats and then clamp them in a two-part jig: form and counterform.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules60.jpeg",
+            slideLegend: "Fichiers d'usinage des gabarits pour les berces",
+            slideLegendEng:"Machining files for the rockers jigs",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules70.jpeg",
+            slideLegend: "Gabarits en cours d'usinage.",
+            slideLegendEng:"Jigs being machined.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules80.jpeg",
+            slideLegend: "Gabarits prêts à l'usage, les deux parties de chaque gabarits coulissent l'une sur l'autre, grâce à des guides qui permettent aussi de garder un alignement parfait et donc permettent un serrage optimal.",
+            slideLegendEng:"Jigs ready for use, the two parts of each jig slide over each other, thanks to guides that also allow to maintain a perfect alignment and thus ensure optimal clamping.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules95.jpeg",
+            slideLegend: "Le fauteuil terminé.",
+            slideLegendEng:"The finished armchair.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/modelisation/chaiseJules/chaiseJules99.jpeg",
+            slideLegend: "Détail des berces.",
+            slideLegendEng:"Detail of the rockers.",
+            alt: "rocking Chair templates",
+            width: 2560,
+            height: 2560
+        }
+    ]
+}
+,
+{
+    name: "Formation Grasshopper",
+    nameEng:"Grasshopper course",
+    description: "<span> Formation Grasshopper appliquée aux programmes de robotique de <a class=\"underline hover:no-underline\" href=\"https://www.batiprint3d.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Batiprint3d, à Nantes</a>.",
+    descriptionEng:"",
+    image_path: "/images/projets/programmation/batiprint/vignetteBatiprint.png",
+    whiteBg: true,
+    category: "Programmation",
+    key_techs: ["Grasshopper", "Formation"],
+    slides: [{
+        type: "picture",
+        slidePath: "/images/projets/programmation/batiprint/vignetteBatiprintFull.png",
+        slideLegend: "<p>L'entreprise Batiprint3D souhaitait former une partie de son staff à la programmation grasshopper.</p><p><br></p><p>Kinematiq m'a demandé de leur préparer une formation de plusieurs jours personnalisée, appliquée aux définitions de production de Batiprint. </p>",
+        slideLegendEng:"Batiprint3D company wanted to train part of its staff in Grasshopper programming.</p><p><br></p><p>Kinematiq asked me to prepare a personalized multi-day training applied to Batiprint's production definitions.",
+        alt: "coffee tables templates",
+        width: 2560,
+        height: 2560
+    }]
+},
+{ 
+    name: "Trophées pour le festival des 3 continents",
+    nameEng:"Trophies for the \"Festival des 3 continents\"",
+    description:
+      "Commande pour l'édition 2023",
+    descriptionEng:"Bespoke order for the year 2023",
+    image_path: "/images/projets/bois/trophees/trophee10ParArcadie.jpg",
+    whiteBg: false,
+    category: "Ebénisterie",
+    key_techs: ["Ébénisterie", "Prototypage", "Gravure Laser", "Chêne massif"],
+    slides: [
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee10ParArcadie.jpg",
+            slideLegend: "Réalisée en chêne massif, le logo est réalisé en découpes de métal, laiton, aluminium ou cuivre dépendemment du prix correspondant",
+            slideLegendEng:"Made of solid oak, the logo is crafted from metal cuts, brass, aluminum, or copper depending on the corresponding price",
+            alt: "trophee festival des 3 continents",
+            width: 2072,
+            height: 2072
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee20ParArcadie.jpg",
+            slideLegend: "Chacun des 5 trophées comporte le logo du festival gravé dans le chêne puis incrusté de plaque de métal.",
+            slideLegendEng:"Each of the 5 trophies features the festival's logo engraved in oak and then embedded with a metal plate.",
+            alt: "trophee festival des 3 continents",
+            width: 2336,
+            height: 2336
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee30ParArcadie.jpg",
+            slideLegend: "Mongolfière d'argent, incrustation d'aluminium.",
+            slideLegendEng:"Silver hot air balloon, aluminum inlay.",
+            alt: "trophee festival des 3 continents",
+            width: 1688,
+            height: 1688
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee40ParArcadie.jpg",
+            slideLegend: "Gravure des textes réalisées à la découpeuse laser.",
+            slideLegendEng:"Text engraving done with laser cutting.",
+            alt: "trophee festival des 3 continents",
+            width: 2588,
+            height: 2588
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee50ParArcadie.jpg",
+            slideLegend: "Mongolfière d'argent, incrustation de laiton.",
+            slideLegendEng:"Silver hot air balloon, brass inlay.",
+            alt: "trophee festival des 3 continents",
+            width: 1620,
+            height: 1620
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee60ParArcadie.jpg",
+            slideLegend: "Le chêne brut de sciage a ensuite été fini à l'huile cire dure pour une protection durable des trophées.",
+            slideLegendEng:"The rough-sawn oak was then finished with hard wax oil for lasting protection of the trophies.",
+            alt: "trophee festival des 3 continents",
+            width: 1620,
+            height: 1620
+        },
+        {
+            type: "picture",
+            slidePath: "/images/projets/bois/trophees/trophee70ParArcadie.jpg",
+            slideLegend: "Prix du public, incrustation de cuivre.",
+            slideLegendEng:"Audience Award, copper inlay.",
+            alt: "trophee festival des 3 continents",
+            width: 1620,
+            height: 1620
+        },
+        {
+            type: "video",
+            slidePath: "/videos/trophee.mp4",
+            slideLegend: "La mongoflière d'argent sur la scelette !",
+            slideLegendEng:"The silver hot air balloon on the skeleton!",
+            alt: "trophee festival des 3 continents",
+            width: 800,
+            height: 800
         }
     ]
 }
